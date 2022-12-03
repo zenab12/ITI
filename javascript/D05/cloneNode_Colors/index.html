@@ -28,20 +28,34 @@
         <div class="clone"><span class="color">rgb(255,50,20)</span></div>
     </div>
     <script>
-
+        
         var container = document.querySelector(".container");
-        container.addEventListener('click', function ({ target }) {
-            if (target.nodeName = 'div' && target == container.firstElementChild) {
-                var clone = target.cloneNode(true);
-                container.appendChild(clone);
-                var spanColored = clone.firstElementChild; 
-                var randColor_1 = Math.round(Math.random() * 255);
-                var randColor_2 = Math.round(Math.random() * 255);
-                var randColor_3 = Math.round(Math.random() * 255);
-                clone.style.backgroundColor = "rgb(" + randColor_1 + "," + randColor_2 + "," + randColor_3 + ")";
-                clone.firstElementChild.innerHTML = "rgb(" + randColor_1 + "," + randColor_2 + "," + randColor_3 + ")";
-            }
+        var clone = document.getElementsByClassName("clone")[0];
+        var c;
+        clone.addEventListener('click', function () {
+            c = clone.cloneNode(true);
+            container.appendChild(c);
+            var spanColored = clone.firstElementChild;
+            var randColor_1 = Math.round(Math.random() * 255);
+            var randColor_2 = Math.round(Math.random() * 255);
+            var randColor_3 = Math.round(Math.random() * 255);
+            c.style.backgroundColor = "rgb(" + randColor_1 + "," + randColor_2 + "," + randColor_3 + ")";
+            c.firstElementChild.innerHTML = "rgb(" + randColor_1 + "," + randColor_2 + "," + randColor_3 + ")";
+
         });
+
+        // container.addEventListener('click', function ({ target }) {
+        //     if (target.nodeName = 'div' && target == container.firstElementChild) {
+        //         var clone = target.cloneNode(true);
+        //         container.appendChild(clone);
+        //         var spanColored = clone.firstElementChild;
+        //         var randColor_1 = Math.round(Math.random() * 255);
+        //         var randColor_2 = Math.round(Math.random() * 255);
+        //         var randColor_3 = Math.round(Math.random() * 255);
+        //         clone.style.backgroundColor = "rgb(" + randColor_1 + "," + randColor_2 + "," + randColor_3 + ")";
+        //         clone.firstElementChild.innerHTML = "rgb(" + randColor_1 + "," + randColor_2 + "," + randColor_3 + ")";
+        //     }
+        // });
 
 
 
