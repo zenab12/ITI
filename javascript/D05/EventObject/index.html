@@ -8,9 +8,11 @@
 <body>
     
     <input type="text">
+    <input type="text">
 
     <script>
-        var input = document.querySelector('input');
+        var input = document.querySelectorAll('input[type="text"')[0];
+        var txtNumber = document.querySelectorAll('input[type="text"')[1]; 
         input.addEventListener("keypress",function(e){
             alert(e.keyCode);
            //console.log(e);
@@ -19,6 +21,14 @@
         document.addEventListener("contextmenu",function(e){
            e.preventDefault();
         });
+
+        txtNumber.addEventListener("keypress",function(e){
+             var charCode = e.keyCode;
+            if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+        e.preventDefault();
+        }
+        return true;
+        })
     </script>
 </body>
 </html>
