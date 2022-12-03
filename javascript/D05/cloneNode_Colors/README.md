@@ -2,10 +2,11 @@
 
 ### this task for practice cloneNode with multiples clones for the same Node and Here you will find [Live Demo](https://zenab12.github.io/ITI/javascript/D05/cloneNode_Colors)
 
-<q>
-there is two ways to create multiple clone nodes : 
-</q>
+
+### there is two ways to create multiple clone nodes : 
+
 - 1)
+
 ```js 
         var container = document.querySelector(".container");
         var clone = document.getElementsByClassName("clone")[0];
@@ -22,7 +23,9 @@ there is two ways to create multiple clone nodes :
         });
 
 ```
+
 - 2)
+
 ```js
 var container = document.querySelector(".container");
         container.addEventListener('click', function ({ target }) {
