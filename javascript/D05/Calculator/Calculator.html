@@ -98,6 +98,32 @@
             </td>
         </tr>
     </table>
+
+
+    <script>
+
+        var answer = document.getElementById("Answer");
+
+
+        function EnterNumber(val)
+        {
+            answer.value += val;
+            return val;
+        }
+        function EnterOperator(val){
+            answer.value += val;
+            return val;
+        }
+
+        function EnterEqual(){
+            answer.value = eval(answer.value);
+            
+      }
+
+        function EnterClear(){
+            answer.value = "";
+        }
+    </script>
 </body>
 
 </html>
