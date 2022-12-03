@@ -35,7 +35,6 @@
         clone.addEventListener('click', function () {
             c = clone.cloneNode(true);
             container.appendChild(c);
-            var spanColored = clone.firstElementChild;
             var randColor_1 = Math.round(Math.random() * 255);
             var randColor_2 = Math.round(Math.random() * 255);
             var randColor_3 = Math.round(Math.random() * 255);
@@ -48,7 +47,6 @@
         //     if (target.nodeName = 'div' && target == container.firstElementChild) {
         //         var clone = target.cloneNode(true);
         //         container.appendChild(clone);
-        //         var spanColored = clone.firstElementChild;
         //         var randColor_1 = Math.round(Math.random() * 255);
         //         var randColor_2 = Math.round(Math.random() * 255);
         //         var randColor_3 = Math.round(Math.random() * 255);
