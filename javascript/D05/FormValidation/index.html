@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation in form using js</title>
+    <style>
+        body{background-color: black;color: aliceblue;}
+        main {display: flex;justify-content: center;align-items: center;flex-direction: column;}
+        table{width:70%}
+        form{margin:50px auto;width:60%;display: flex;justify-content: center;flex-direction: column;gap:50px}
+        form label{ display: flex;flex-direction: row;justify-content:center;gap:20px;}
+        div.btns{display: flex;justify-content: center;gap:20px;}
+        div > *{padding: 5px;width:100px;}
+        span {color: red;}
+        td{text-align: center;}
+    </style>
+</head>
+<body>
+    <main>
+    <form>
+        <label>
+            Name:       <input type="text" name="name" placeholder="enter the name"> <span class="err"></span>
+
+        </label>
+
+        <label>
+           Age:        <input type="number" name="age" placeholder="enter the age"> <span class="err"></span>
+        </label>
+
+        <label>
+           E-mail:        <input type="email" name="email" placeholder="enter the email"> <span class="err"></span>
+        </label>
+
+<div class="btns">
+    <button class="add">Add</button>
+    <input type="reset">
+</div>
+
+
+
+
+    </form>
+
+
+
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+</main>
+
+
+<script src="script.js"></script>
+</body>
+</html>
