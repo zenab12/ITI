@@ -1,0 +1,222 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 06</title>
+    <style>
+        main {
+            margin: 20px auto;
+        }
+
+        #clock {
+
+            width: 300px;
+            height: 150px;
+            padding: 1px;
+            background-color: brown;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 23px;
+            ;
+        }
+
+        button {
+
+            width: 150px;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+
+
+
+        <div id="clock">
+            <span class="hour"> </span> : &nbsp;
+            <span class="minutes"></span> : &nbsp;
+            <span class="seconds"></span>
+
+
+
+        </div>
+
+
+        <button class="start"> Clock Started</button>
+        <button class="stop"> Clock Stoped</button>
+
+
+        <h2>Slider Of Images : </h2>
+        <div>
+            <button class="Prev">Prev</button>
+            <button class="Next">Next</button>
+
+            <button class="slide">SlideShow</button>
+            <button class="stopButton">Stop</button>
+
+
+            <div class="img-container">
+                <img src="./SlideShow/1.jpg">
+            </div>
+        </div>
+    </main>
+
+    <script>
+
+        clockDiv = document.getElementById("clock");
+        hours = document.querySelector("span.hour");
+        minutes = document.querySelector("span.minutes");
+        seconds = document.querySelector("span.seconds");
+        startButton = document.querySelector("button.start");
+        stop = document.querySelector("button.stop");
+        startButton.addEventListener("click", fireClock);
+
+        // var seconds ;
+        function fireClock() {
+            var date = new Date();
+            hours.innerHTML = date.getHours();
+            minutes.innerHTML = date.getMinutes();
+            seconds.innerHTML = date.getSeconds();
+
+            var secondTimer = setInterval(timer, 1000);
+            function timer() {
+                if (parseInt(seconds.innerHTML) >= 60) {
+                    seconds.innerHTML = 0;
+                } else {
+                    seconds.innerHTML = parseInt(seconds.innerHTML) + 1;
+                }
+            }
+
+
+            var minutesTimer = setInterval(mtimer, 60000);
+            function mtimer() {
+                if (parseInt(minutes.innerHTML) >= 60) {
+                    minutes.innerHTML = 0;
+                } else {
+                    minutes.innerHTML = parseInt(minutes.innerHTML) + 1;
+                }
+            }
+
+
+            var hoursTimer = setInterval(htimer, 360000);
+            function htimer() {
+                if (parseInt(hours.innerHTML) >= 24) {
+                    hours.innerHTML = 0;
+                } else {
+                    hours.innerHTML = parseInt(hours.innerHTML) + 1;
+                }
+            }
+
+
+
+
+            stop.addEventListener("click", function () {
+
+                clearInterval(secondTimer);
+                clearInterval(hoursTimer);
+                clearInterval(minutesTimer);
+
+            });
+
+            window.addEventListener("keydown", function (e) {
+
+                if (e.altKey == true && e.keyCode == 65) {
+                    console.log('Alt + A');
+                    clearInterval(secondTimer);
+                    clearInterval(hoursTimer);
+                    clearInterval(minutesTimer);
+                }
+            })
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        //Slider 
+
+        var nextButton = document.querySelector("button.Next");
+        var prevButton = document.querySelector("button.Prev");
+
+        var slide = document.querySelector("button.slide");
+        var stopButton = document.querySelector("button.stopButton");
+
+
+        var img = document.querySelector("div.img-container img");
+        var counter = 1;
+
+
+
+        nextButton.addEventListener("click", function () {
+            if (counter < 6) {
+                counter++;
+            } else {
+                counter = 1;
+            }
+
+            img.setAttribute("src", "./SlideShow/" + counter + ".jpg");
+        });
+
+
+
+        prevButton.addEventListener("click", function () {
+            if (counter > 0) {
+                counter--;
+
+            } else {
+                counter = 6;
+            }
+            img.setAttribute("src", "./SlideShow/" + counter + ".jpg")
+
+
+        });
+
+
+        var sliderInterval;
+        slide.addEventListener("click", slider);
+        function slider() {
+            sliderInterval = setInterval(count, 1000);
+            function count() {
+                if (counter < 6) {
+                    counter++;
+
+                } else {
+                    counter = 1;
+                };
+                img.setAttribute("src", "./SlideShow/" + counter + ".jpg");
+
+            }
+
+
+        }
+
+        console.log(stopButton);
+
+        stopButton.addEventListener("click", function () {
+            clearInterval(sliderInterval);
+            console.log("stop");
+        });
+
+
+
+
+
+
+    </script>
+
+    <script src="./script6.js"></script>
+</body>
+
+</html>
