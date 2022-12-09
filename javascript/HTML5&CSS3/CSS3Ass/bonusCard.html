@@ -1,0 +1,107 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotchina card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+        body {
+            font-family: 'Permanent Marker', cursive;
+        }
+
+        #trapezoid {
+            border-bottom: 42px solid #000;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            height: 0;
+            width: 30px;
+            position: relative;
+            top: -10px;
+            left: 26px;
+        }
+
+        #heart {
+            position: relative;
+            width: 100px;
+            height: 70px;
+            transform: rotate(180deg);
+        }
+
+        #heart:before,
+        #heart:after {
+            position: absolute;
+            content: "";
+            left: 50px;
+            top: 0;
+            width: 50px;
+            height: 80px;
+            background: #000;
+            border-radius: 50px 50px 0 0;
+            transform: rotate(-45deg);
+            transform-origin: 0 100%;
+        }
+
+        #heart:after {
+            left: 0;
+            transform: rotate(45deg);
+            transform-origin: 100% 100%;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div.card {
+            width: 200px;
+            padding: 20px;
+            height: 300px;
+            border-radius: 10px;
+            border: 5px solid #333;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        div p {
+            font-size: 30px;
+            margin-top: -10px;
+        }
+
+        div.card p:first-of-type {
+            align-self: flex-start;
+        }
+
+        div.shape {
+            align-self: center;
+            margin-bottom: 20px;
+        }
+
+        div.card p:last-of-type {
+            align-self: flex-end;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <p>A</p>
+        <div class="shape">
+            <div id="heart"></div>
+            <div id="trapezoid">
+
+            </div>
+        </div>
+        <p>A</p>
+    </div>
+</body>
+
+</html>

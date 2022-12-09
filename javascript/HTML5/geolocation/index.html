@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <title>Simple Markers</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!-- playground-hide -->
+    <script>
+        const process = { env: {} };
+        process.env.GOOGLE_MAPS_API_KEY =
+            "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg";
+    </script>
+    <!-- playground-hide-end -->
+
+   
+
+
+    <style>
+        #map {
+            height: 100%;
+        }
+
+        /* 
+        * Optional: Makes the sample page fill the window. 
+        */
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        label {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin: 50px auto;
+        }
+
+        select {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <label>Cities:
+        <select>
+            <option value="current" selected>current</option>
+            <option value="damietta">damyitta</option>
+            <option value="mansoura">mansoura</option>
+            <option value="alex">Alex</option>
+        </select>
+    </label>
+    <div id="map"></div>
+
+
+    <script>
+
+
+    </script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+        defer></script>
+        <script src="index.js"></script>    
+</body>
+
+</html>
