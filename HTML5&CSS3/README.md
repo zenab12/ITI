@@ -11,7 +11,7 @@
 
 - canvas:
   - Using canvas: when the user clicks on the “click me” button generate number of circles in the entire page in random places and get the circles color from the “input color”.
-  - [liveDemo]()
+  - [liveDemo](https://zenab12.github.io/ITI/HTML5&CSS3)
   ![_D__Learn_ITI_js_HTML5 CSS3_index html(Nest Hub)](https://user-images.githubusercontent.com/78083890/206854692-3c83764c-3a68-47d2-b9d9-6305b2720c84.png)
 
 - darg&drop
@@ -20,7 +20,7 @@
 
 - focus
   - Make a search textbox, that when mouse is on it (on focus), its width increases gradually, and when mouse is out (on blur), it backs gradually to its original width
-  - [live Demo]()
+  - [live Demo](https://zenab12.github.io/ITI/HTML5&CSS3/input.html)
   
   
 - slider
@@ -29,7 +29,7 @@
 
 - features
   - Using font awesome CDN to create the icons https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" icons.
-  - [live Demo]()
+  - [live Demo](https://zenab12.github.io/ITI/HTML5&CSS3/features.html)
 
   ``` html 
     <i class="fa fa-bullhorn"></i>
@@ -43,7 +43,7 @@
 
  
 - card 
-  - [live Demo]()
+  - [live Demo](https://zenab12.github.io/ITI/HTML5&CSS3/bonusCard.html)
   ![_D__Learn_ITI_js_HTML5 CSS3_CSS3Ass_bonusCard html(Nest Hub)](https://user-images.githubusercontent.com/78083890/206855344-cda2d915-afc4-4084-951e-a30a94ccb1bb.png)
 
 
