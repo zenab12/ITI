@@ -29,8 +29,8 @@
   
 ## slider
   - Create a simple photo gallery like the following, and use opacity property to make each image fades out gradually (its opacity decreases to 0.3 gradually) when mouse is over it, and fades in gradually (its opacity increases to 1 gradually) when mouse is a way. (Use JavaScript to add styles)
-  - [live Demo](https://zenab12.github.io/ITI/HTML5&CSS3/CSS3Ass/slider.html)
-  - [code](https://github.com/zenab12/ITI/blob/main/HTML5%26CSS3/CSS3Ass/slider.html) 
+  - [live Demo](https://zenab12.github.io/ITI/HTML5&CSS3/CSS3Ass/photoGallery.html)
+  - [code](https://github.com/zenab12/ITI/blob/main/HTML5%26CSS3/CSS3Ass/photoGallery.html) 
 
 
 ## features
