@@ -1,0 +1,75 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        body {
+            color: #fff;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background-color: #222;
+            flex-direction: column;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+            background-color: aliceblue;
+            border: 5px dashed #000;
+            flex-wrap: wrap;
+        }
+
+        img {
+            width: 200px;
+            border: 10px groove #333;
+            transition: opacity .5s linear;
+        }
+
+        h1 {
+            text-shadow: 1px 1px 3px #fff;
+            font-size: 45px;
+            color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Photo Gallery </h1>
+    <main>
+        <img src="../imgs/horse-1911400_640.jpg">
+        <img src="../imgs/horses-430441_640.jpg">
+        <img src="../imgs/night-1352912_640.jpg">
+        <img src="../imgs/stallion-422110_1920.jpg">
+
+    </main>
+    <script>
+        var main = document.querySelector("main");
+
+        main.addEventListener("mouseover", function (e) {
+            for (var i = 0; i < main.children.length; i++) {
+                if (e.target == main.children[i]) {
+                    e.target.style.opacity = .3;
+                }
+            }
+
+        })
+
+        main.addEventListener("mouseout", function (e) {
+            for (var i = 0; i < main.children.length; i++) {
+                if (e.target == main.children[i]) {
+                    e.target.style.opacity = 1;
+                }
+            }
+
+        })
+    </script>
+</body>
+
+</html>
