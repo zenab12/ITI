@@ -1,7 +1,7 @@
 # Assignments in HTML5 & CSS3 in client side course 
 
 - Assignment #1 about [canvas](#canvas)
-- Assignment #2 about [dag and drop Bonus game](#drag_drop)
+- Assignment #2 about [dag and drop Bonus game](#dragdrop)
 - Assignment #3 about css3 [focus and blur](#focus)
 - Assignment #4 about css3 [slider](#slider)
 - Assignment #5 about css3 [features section](#features)
@@ -14,7 +14,8 @@
   - [liveDemo](https://zenab12.github.io/ITI/HTML5&CSS3)
   ![_D__Learn_ITI_js_HTML5 CSS3_index html(Nest Hub)](https://user-images.githubusercontent.com/78083890/206854692-3c83764c-3a68-47d2-b9d9-6305b2720c84.png)
 
-## darg_drop
+
+## dargdrop
   - drag and drop game with stone,scissor ,paper.
  
 
