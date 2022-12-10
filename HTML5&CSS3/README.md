@@ -17,10 +17,12 @@
 
 
 ## darg_drop
-  - Not completed yet.
+  - under factoring.
   - drag and drop game with stone,scissor ,paper.
   - [live Demo](https://zenab12.github.io/ITI/HTML5&CSS3/CSS3Ass/drag_drop.html)
   - [code](https://github.com/zenab12/ITI/blob/main/HTML5%26CSS3/CSS3Ass/drag_drop.html) 
+![_D__Learn_ITI_js_HTML5 CSS3_CSS3Ass_drag_drop html(Nest Hub Max)](https://user-images.githubusercontent.com/78083890/206868620-e52f8e41-6492-4a75-bf26-8a6709e9c151.png)
+
 
 ## focus
   - Make a search textbox, that when mouse is on it (on focus), its width increases gradually, and when mouse is out (on blur), it backs gradually to its original width
