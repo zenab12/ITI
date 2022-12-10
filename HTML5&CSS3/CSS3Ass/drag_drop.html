@@ -7,6 +7,7 @@
     <title>Drag and drop events </title>
 
     <style>
+        
         body {
             color: rgb(89, 87, 87);
             display: flex;
@@ -29,21 +30,33 @@
             width: 450px
         }
 
-        div:first-of-type {
-            width: 400px
-        }
 
-        div:nth-last-of-type(2) {
+        div img[alt='rock'] {
             width: 250px
+        } 
+
+         img[alt="scissor"]
+        {
+              transform: translateX(100px);
         }
 
-        div:last-of-type {
-            width: 400px
+        /* transitions */
+        div {
+            -webkit-transition: -webkit-transform 0.2s ease-out;
+            -moz-transition: -moz-transform 0.2s ease-out;
+            -o-transition: -o-transform 0.2s ease-out;
+            transition: transform 0.2s ease-out;
         }
 
-        div:last-of-type img:last-of-type {
-            width: 250px
+        div.moving {
+            opacity: 0.25;
+            -webkit-transform: scale(0.8);
+            -moz-transform: scale(0.8);
+            -o-transform: scale(0.8);
+            transform: scale(0.8);
         }
+
+
     </style>
 </head>
 
@@ -51,34 +64,31 @@
 
     <header>
         <h1>Paper , Scissor , Rock Game </h1>
-        <p id="statusMessage" class="message" ></p>
+        <p id="statusMessage" class="message"></p>
     </header>
 
+    <!-- the outer container -->
     <main id="content">
-        
 
-        <div class="paper" id="rps1" class="rps">
-            <img src="../imgs/paper.png" alt="paper" draggable="true"  id="drag1">
-            <footer>paper</footer>
+        <div id="rps1" class="rps">
+            <img src="../imgs/stone-ai.png" alt="rock"  draggable="true">
+            <p>Rock</p>
         </div>
-
-        <div class="scissor" id="rps2" class="rps">
-            <img src="../imgs/scissor.png" alt="scissor" draggable="true"  id="drag2">
-            <footer>scissor</footer>
+        <div id="rps2" class="rps">
+            <img src="../imgs/paper.png" alt="paper" draggable="true">
+            <p>Paper</p>
         </div>
-
-        <div class="rock" id="rps3" class="rps">
-            <img src="../imgs/stone-ai.png" alt="rock" draggable="true"  id="drag3">
-            <footer>rock</footer>
+        <div id="rps3" class="rps">
+            <img src="../imgs/scissor.png" alt="scissor"  draggable="true">
+            <p>Scissors</p>
         </div>
-
-
-
 
     </main>
 
+
+
     <script>
-        
+
         var dndSupported;
         var dndElements = new Array();
         var draggingElement;
@@ -97,14 +107,14 @@
 
         function detectDragAndDrop() {
             if ('draggable' in document.createElement('span')) {
-              
+
                 return true;
             }
             return false;
         }
 
 
-       
+
         function handleDragStart(e) {
             draggingElement = this;
             // set its class to moving
@@ -212,7 +222,7 @@
             // loop through these elements
             for (var i = 0; i < children.length; i++) {
                 // if this is the footer element
-                if (children[i].nodeName.toLowerCase() == 'footer') {
+                if (children[i].nodeName.toLowerCase() == 'p') {
                     // return that element
                     return children[i];
                 }
@@ -258,14 +268,20 @@
             // store the src and innerHTML of rpsA in two properties of this placeholder
             myPlaceholder.src = getRPSImage(rpsA).src;
             myPlaceholder.type = getRPSFooter(rpsA).innerHTML;
+            myPlaceholder.alt = getRPSImage(rpsA).alt;
 
             // store these two properties from rpsB in rpsA, replacing them 
             getRPSImage(rpsA).src = getRPSImage(rpsB).src;
             getRPSFooter(rpsA).innerHTML = getRPSFooter(rpsB).innerHTML;
+            getRPSImage(rpsA).alt = getRPSImage(rpsB).alt;
 
             // store the placeholder properties in rpsB, completing the swap
             getRPSImage(rpsB).src = myPlaceholder.src;
             getRPSFooter(rpsB).innerHTML = myPlaceholder.type;
+            getRPSImage(rpsB).alt = myPlaceholder.alt;
+
+
+            console.log(myPlaceholder)
         }
 
 
