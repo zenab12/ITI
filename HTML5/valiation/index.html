@@ -7,37 +7,28 @@
     <title>HTML5 validation</title>
     <style>
       input {
- 
-  border: 3px solid #ccc;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  outline: none;
-}  
-input:focus {
-  border: 3px solid rgb(249, 2, 2);
-  box-shadow: 1px 1px 1px rgb(249, 2, 2);
-}
+      border: 3px solid #ccc;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;}
+
+    input:focus {
+      border: 3px solid rgb(249, 2, 2);
+      box-shadow: 1px 1px 1px rgb(249, 2, 2);
+    }
     </style>
 </head>
 <body>
     <h1>Change Email address</h1>
-    <form>
-        
+    <form>  
         <input type="text" placeholder="Username" value="" required>
-
         <input type="email" placeholder="email" value="" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" required>
-
         <input type="submit" value="change">
-
-
     </form>
 
     <script> 
          var form = document.getElementsByTagName("form")[0];
-        var input = document.getElementsByTagName('input');
-
-       
-    
+         var input = document.getElementsByTagName('input');
     </script>
 </body>
 </html>
