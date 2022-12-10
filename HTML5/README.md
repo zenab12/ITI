@@ -16,7 +16,7 @@
 
 
 ## color_range:
-  - [live Demo](https://zenab12.github.io/ITI/HTML5/color_change)
+  - [live Demo](https://zenab12.github.io/ITI/HTML5/color_change/)
   - [code](https://github.com/zenab12/ITI/blob/main/HTML5/color_change/index.html)
 ![_D__Learn_ITI_js_HTML5_color_change_index html(Nest Hub)](https://user-images.githubusercontent.com/78083890/206876311-24b90888-e6ce-46ef-a503-f90cb481dd3a.png)
 
