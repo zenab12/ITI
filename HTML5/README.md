@@ -3,7 +3,7 @@
 - Assignment #1 about [validation](#validation)
 - Assignment #2 about [Text Color Range.](#color_range)
 - Assignment #3 about [media player](#mdeia_player)
-- Assignment #4 about css3 [geo location](#geo_location)
+- Assignment #4 about [geo location](#geo_location)
 
 
 
