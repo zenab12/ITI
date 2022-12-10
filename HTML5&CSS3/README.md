@@ -1,7 +1,7 @@
 # Assignments in HTML5 & CSS3 in client side course 
 
 - Assignment #1 about [canvas](#canvas)
-- Assignment #2 about [dag and drop Bonus game](#drag&drop)
+- Assignment #2 about [dag and drop Bonus game](#drag_drop)
 - Assignment #3 about css3 [focus and blur](#focus)
 - Assignment #4 about css3 [slider](#slider)
 - Assignment #5 about css3 [features section](#features)
@@ -14,7 +14,7 @@
   - [liveDemo](https://zenab12.github.io/ITI/HTML5&CSS3)
   ![_D__Learn_ITI_js_HTML5 CSS3_index html(Nest Hub)](https://user-images.githubusercontent.com/78083890/206854692-3c83764c-3a68-47d2-b9d9-6305b2720c84.png)
 
-## darg&drop
+## darg_drop
   - drag and drop game with stone,scissor ,paper.
  
 
@@ -28,19 +28,21 @@
 
 
 ## features
+
   - Using font awesome CDN to create the icons https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" icons.
   - [live Demo](https://zenab12.github.io/ITI/HTML5&CSS3/CSS3Ass/features.html)
-
   ``` html 
     <i class="fa fa-bullhorn"></i>
     <i class="fa fa-comments"></i>
     <i class="fa fa-cloud-download"></i>
     <i class="fa fa-leaf"></i>
     <i class="fa fa-cogs"></i>
-    <i class="fa fa-heart"></i>```
+    <i class="fa fa-heart"></i>
+```
     
-![_D__Learn_ITI_js_HTML5 CSS3_CSS3Ass_features html(Nest Hub)](https://user-images.githubusercontent.com/78083890/206855388-b997d2bf-96b3-4cdd-8b8b-e07b80b3c6df.png)
+  ![_D__Learn_ITI_js_HTML5 CSS3_CSS3Ass_features html(Nest Hub)](https://user-images.githubusercontent.com/78083890/206855388-b997d2bf-96b3-4cdd-8b8b-e07b80b3c6df.png)
 
+ 
  
 ## card 
   - [live Demo](https://zenab12.github.io/ITI/HTML5&CSS3/CSS3Ass/bonusCard.html)
