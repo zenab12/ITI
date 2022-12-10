@@ -17,7 +17,7 @@
 
 
 ## darg_drop
-  - under factoring.
+  - under refactoring.
   - drag and drop game with stone,scissor ,paper.
   - [live Demo](https://zenab12.github.io/ITI/HTML5&CSS3/CSS3Ass/drag_drop.html)
   - [code](https://github.com/zenab12/ITI/blob/main/HTML5%26CSS3/CSS3Ass/drag_drop.html) 
