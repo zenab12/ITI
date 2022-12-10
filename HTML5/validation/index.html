@@ -1,28 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5 validation</title>
     <style>
-      input {
- 
-  border: 3px solid #ccc;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  outline: none;
-}  
-input:focus {
-  border: 3px solid rgb(249, 2, 2);
-  box-shadow: 1px 1px 1px rgb(249, 2, 2);
-}
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            background: repeating-linear-gradient(#e66465, #e66465 20px, #9198e5 20px, #9198e5 25px);
+        }
+
+        input {
+
+            border: 3px solid #ccc;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+            border: 3px solid #eee;
+            outline: none;
+        }
+
+        h1 {
+            background: #fff;
+            color: #9198e5;
+            padding: 7px;
+            border: 5px dashed #9198e5
+        }
     </style>
 </head>
+
 <body>
     <h1>Change Email address</h1>
     <form>
-        
+
         <input type="text" placeholder="Username" value="" required>
 
         <input type="email" placeholder="email" value="" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" required>
@@ -32,12 +47,31 @@ input:focus {
 
     </form>
 
-    <script> 
-         var form = document.getElementsByTagName("form")[0];
+    <script>
         var input = document.getElementsByTagName('input');
+        for (var i = 0; i < 2; i++) {
+            (input[i]).addEventListener("focus", function () {
+                (this).style.border = "3px solid red";
+            });
 
-       
-    
+            (input[i]).addEventListener("input", function (e) {
+                if ((e.target.value) !== "") {
+                    (e.target).style.border = "3px solid rgb(140, 255, 2)";
+                    console.log(e.target.value)
+                } else {
+                    (e.target).style.border = "3px solid rgb(240, 2, 2)";
+                }
+            });
+
+            (input[i]).addEventListener("blur", function () {
+                (this).style.border = "3px solid #eee";
+            });
+
+        }
+
+
+
     </script>
 </body>
+
 </html>
