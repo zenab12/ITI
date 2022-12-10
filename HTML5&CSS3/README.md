@@ -18,7 +18,7 @@
 
 ## darg_drop
   - under refactoring.
-  - drag and drop game with stone,scissor ,paper.
+  - drag and drop game with stone,scissor ,paper and you can play it on pc only not mobile .
   - [live Demo](https://zenab12.github.io/ITI/HTML5&CSS3/CSS3Ass/drag_drop.html)
   - [code](https://github.com/zenab12/ITI/blob/main/HTML5%26CSS3/CSS3Ass/drag_drop.html) 
 ![_D__Learn_ITI_js_HTML5 CSS3_CSS3Ass_drag_drop html(Nest Hub Max)](https://user-images.githubusercontent.com/78083890/206868620-e52f8e41-6492-4a75-bf26-8a6709e9c151.png)
