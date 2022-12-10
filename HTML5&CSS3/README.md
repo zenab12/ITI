@@ -11,14 +11,14 @@
 
 ## canvas:
   - Using canvas: when the user clicks on the “click me” button generate number of circles in the entire page in random places and get the circles color from the “input color”.
-  - [liveDemo](https://zenab12.github.io/ITI/HTML5&CSS3)
+  - [live Demo](https://zenab12.github.io/ITI/HTML5&CSS3)
   - [code](https://github.com/zenab12/ITI/blob/main/HTML5%26CSS3/index.html)
   ![_D__Learn_ITI_js_HTML5 CSS3_index html(Nest Hub)](https://user-images.githubusercontent.com/78083890/206854692-3c83764c-3a68-47d2-b9d9-6305b2720c84.png)
 
 
 ## darg_drop
   - drag and drop game with stone,scissor ,paper.
-  - [liveDemo](https://zenab12.github.io/ITI/HTML5&CSS3/CSS3Ass/drag_drop.html)
+  - [live Demo](https://zenab12.github.io/ITI/HTML5&CSS3/CSS3Ass/drag_drop.html)
   - [code](https://github.com/zenab12/ITI/blob/main/HTML5%26CSS3/CSS3Ass/drag_drop.html) 
 
 ## focus
