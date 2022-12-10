@@ -10,37 +10,62 @@
             "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg";
     </script>
     <!-- playground-hide-end -->
-    <style>
-        #map {
-            height: 100%;
-        }
 
-        /* 
-        * Optional: Makes the sample page fill the window. 
-        */
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kenia&family=Permanent+Marker&display=swap');
+
         html,
         body {
             height: 100%;
             margin: 0;
             padding: 0;
+            background-color: #222;
+            color: #fff;
+            font-family: 'Kenia', cursive;
         }
+
+        #map {
+            height: 100%;
+            width: 80%;
+            margin: auto;
+            border: 10px groove #444
+        }
+
 
         label {
             width: 100%;
             display: flex;
             justify-content: center;
             margin: 50px auto;
+            align-items: center;
         }
 
         select {
             margin-left: 20px;
+            margin-left: 20px;
+            width: 200px;
+            padding: 10px;
+            font-size: 17px;
+            color: #333;
+            background: #fff;
+            border: navajowhite;
+            box-shadow: 0px 0px 3px aliceblue;
+            text-transform: capitalize;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px auto;
         }
     </style>
 </head>
 
 <body>
-
-    <label>Cities:
+    <h1>Choose city you want to get the location of it </h1>
+    <label>
+        <span>
+            Cities:
+        </span>
         <select>
             <option value="current" selected>current</option>
             <option value="damietta">damyitta</option>
@@ -52,7 +77,7 @@
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
         defer></script>
-        <script src="index.js"></script>    
+    <script src="index.js"></script>
 </body>
 
 </html>
