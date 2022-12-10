@@ -3,7 +3,7 @@
 - Assignment #1 about [canvas](#canvas)
 - Assignment #2 about [dag_drop Bonus Game](#drag_drop)
 - Assignment #3 about css3 [focus and blur](#focus)
-- Assignment #4 about css3 [slider](#slider)
+- Assignment #4 about css3 [photo Gallery](#photo_Gallery)
 - Assignment #5 about css3 [features section](#features)
 - Assignment #6 about css3 [Card Bonus](#card)
 
@@ -27,7 +27,7 @@
   - [code](https://github.com/zenab12/ITI/blob/main/HTML5%26CSS3/CSS3Ass/input.html) 
 
   
-## slider
+## photo_Gallery
   - Create a simple photo gallery like the following, and use opacity property to make each image fades out gradually (its opacity decreases to 0.3 gradually) when mouse is over it, and fades in gradually (its opacity increases to 1 gradually) when mouse is a way. (Use JavaScript to add styles)
   - [live Demo](https://zenab12.github.io/ITI/HTML5&CSS3/CSS3Ass/photoGallery.html)
   - [code](https://github.com/zenab12/ITI/blob/main/HTML5%26CSS3/CSS3Ass/photoGallery.html) 
