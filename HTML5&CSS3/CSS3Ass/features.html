@@ -1,0 +1,185 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features section</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding:0px;
+        }
+
+        section {
+            background: #eee;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            gap:40px;
+        }
+
+        header {
+            align-self: center;
+            width: 50%;
+            text-align: center;
+        }
+        h1{margin-bottom: 10px;}
+
+        h2{font-size: 18px;}
+        h1,h2{color:rgb(94, 94, 94)}
+        header p{color: rgb(58, 58, 58);}
+        p{color:rgb(111, 102, 102)}
+
+        main {
+            display: flex;
+            justify-content: center;
+            margin: 20px auto;
+            flex-wrap: wrap;
+            align-self: center;
+            gap:50px;
+        }
+
+        main>div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            width: 400px
+        }
+
+        div.icon {
+            background-color: #fff;
+            color: darkred;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 0px 3px #fff;
+            border: 4px solid #eee;
+            transition: all .5s linear;
+            cursor: pointer;
+            width:150px;
+            height:84px;
+        }
+
+        div.icon.active{color:#fff;background-color: darkred;    box-shadow: 0px 0px 0px 3px darkred;
+            border: 4px solid darkred;transition: all .5s linear;}
+
+      @media(max-width:767px){
+        header{width:90%}
+      }
+
+    </style>
+
+</head>
+
+<body>
+    <section>
+        <header>
+            <h1>Features</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nesciunt expedita illum omnis, ducimus
+                itaque fugiat nihil architecto amet similique eveniet unde.</p>
+        </header>
+
+        <main>
+            <div class="feature">
+                <div class="icon">
+                    <i class="fa fa-bullhorn"></i>
+                </div>
+                <div class="details">
+                    <h2>Fresh and Clean</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolor sunt quisquam suscipit.
+                    </p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="icon active">
+                    <i class="fa fa-comments"></i>
+                </div>
+                <div class="details">
+                    <h2>Retina ready</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolor sunt quisquam suscipit.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="feature">
+                <div class="icon">
+                    <i class="fa fa-cloud-download"></i>
+                </div>
+                <div class="details">
+                    <h2>Easy to customize</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolor sunt quisquam suscipit.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="feature">
+                <div class="icon">
+                    <i class="fa fa-leaf"></i>
+                </div>
+                <div class="details">
+                    <h2>Adipisicing elit</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolor sunt quisquam suscipit.
+                    </p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="icon">
+                    <i class="fa fa-cogs"></i>
+                </div>
+                <div class="details">
+                    <h2>sed do eiusmod</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolor sunt quisquam suscipit.
+                    </p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="icon">
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="details">
+                    <h2>labore et dolore</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolor sunt quisquam suscipit.
+                    </p>
+                </div>
+            </div>
+
+        </main>
+    </section>
+
+    <script>
+        var icons = document.querySelectorAll("div.icon");
+
+        for(var i=0;i<icons.length;i++){
+            console.log(icons[i]);
+    
+            icons[i].addEventListener("mouseover",function(){
+                          if(icons[1].classList=="icon active"){
+                    icons[1].setAttribute("class","icon");
+                } 
+                this.classList.add("active");
+            });
+            icons[i].addEventListener("mouseout",function(){
+                
+                this.setAttribute("class","icon");
+                icons[1].setAttribute("class","icon active");
+
+            });
+        }
+    </script>
+</body>
+
+</html>
