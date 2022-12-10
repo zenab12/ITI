@@ -1,0 +1,84 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>change color range</title>
+
+    <style>
+        body {
+            padding: 20px;
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            ;
+            flex-direction: column;
+        }
+
+        form {
+            background: #fff;
+            border: 10px dashed #333;
+            padding: 20px;
+            font-size: 20px;
+            width: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        p {
+            background-color: #fff;
+            padding: 10px;
+            font-size: 24px;
+            text-align: center;
+            border: 5px dashed #333;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <label>
+            Red:
+            <input type="range" min="0" max="255" value="20">
+        </label>
+
+        <label>
+            Green:
+            <input type="range" min="0" max="255" value="200">
+        </label>
+
+        <label>
+            Blue:
+            <input type="range" min="0" max="255" value="30">
+        </label>
+    </form>
+
+    <p>change 3 colors above and see the change here </p>
+
+    <script>
+        var inputs = document.getElementsByTagName("input");
+        var p = document.querySelector("p");
+        var red, green, blue;
+        green = inputs[1].value;
+        red = inputs[0].value;
+        blue = inputs[2].value;
+        p.style.color = "rgb(" + red + "," + green + "," + blue + ")";
+
+        for (var i = 0; i < inputs.length; i++) {
+            (inputs[i]).addEventListener("input", function (e) {
+                green = inputs[1].value;
+                red = inputs[0].value;
+                blue = inputs[2].value;
+                p.style.color = "rgb(" + red + "," + green + "," + blue + ")";
+
+            });
+        }
+
+    </script>
+</body>
+
+</html>
