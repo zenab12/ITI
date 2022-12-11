@@ -1,4 +1,4 @@
-# Assignments in HTML5 & CSS3 in client side course 
+# Assignments in HTML5 in client side course 
 
 - Assignment #1 about [validation](#validation)
 - Assignment #2 about [Text Color Range.](#color_range)
