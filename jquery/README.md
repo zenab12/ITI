@@ -6,6 +6,7 @@
 
 
 ## Notes_app:
+  - under refactoring to include local storage.
   - [live Demo](https://zenab12.github.io/ITI/jquery/NotesAdded)
   - [code](https://github.com/zenab12/ITI/blob/main/NotesAdded/index.html)
 ![_D__Learn_ITI_jquery_NotesAdded_index html_(Nest Hub)](https://user-images.githubusercontent.com/78083890/206912165-bc902d2d-2a12-4da6-b153-2b6d4b9e1a09.png)
