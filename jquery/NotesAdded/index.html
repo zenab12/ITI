@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+    <!-- cdn -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+    <script src="./jq.js"></script>
+    <style>
+        body{background: #ffc5d0;}
+        main{display: flex;justify-content: center;align-items: center;flex-direction: column;width:80%;margin: 20px auto;gap:30px}
+        form{width:100%;align-self: center;display: flex;justify-content: center;align-items: center;gap:20px}
+        input{flex-grow: 3;outline: none;border:3px dashed #ffc5d0;padding:10px}
+        button{transition:all .5s linear;cursor:pointer;flex-grow: 2;outline: none;border:3px dashed #ffc5d0;padding: 5px;color:#fff;background-color: #fb6090;font-size: 20px;}
+        input::placeholder{color:#fb6090;font-weight: bold;}
+        table{width:100%;border-collapse: collapse;}
+        table th{color:#fb6090;font-size: 25px;}
+
+        tr td{font-size: 18px;padding:5px;}
+        td button{background: #821d30;color:#fff;text-align: center;padding:10px;cursor: pointer;font-size: 17px;width: 150px;margin:auto}
+        td:first-of-type,th:first-of-type{width: 80%;}
+        td:last-of-type{display: flex;align-items: center;justify-content: center;}
+        td:last-of-type button{flex-grow:0;width:150px;display: flex;align-items: center;justify-content: center;}
+        td,th{border:2px solid #fb6090}
+        thead tr{background: #fff;}
+        tbody tr:nth-of-type(odd){
+            background-color: #fb8da0;
+            color:#fff;
+        }
+
+        .delete:hover{
+            background: #6b1726 
+        }
+
+        tbody tr:nth-of-type(even){
+            background-color: #efebe0;
+            color:#fb6090;
+        }
+
+        h1{margin:20px auto;color:#856369;text-shadow: 0px 0px 5px;
+}
+        .btn:hover{
+            background: #f64a80;
+        }
+        .message{height: 10px;}
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+        <h1>I'm here to hear you, my friend 🤍💌 </h1>
+    <form>
+        <input type="text" value="" placeholder="enter the note you want to add">
+        <button class="btn">Add</button>
+    </form>
+    <div class="message">
+
+    </div>
+    <table >
+        <thead>
+            <th>Note</th>
+            <th>delete</th>
+        </thead>
+        <tbody>
+            <!-- <tr>
+                <td>Note added</td>
+                <td><button class="delete">Delete</button></td>
+            </tr> -->
+        </tbody>
+    </table>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

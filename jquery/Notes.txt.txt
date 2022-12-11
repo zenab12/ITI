@@ -1,0 +1,113 @@
+- jQuery is a fast, small, and feature-rich JavaScript library
+- jQuery is a lightweight, "write less, do more".
+- Jquery is cross browser 
+- selector is easy instead of js and we make events on all selector on it 
+- Apply style for multi elements without looping 
+- there is ( jquery Ui ) have component . 
+- performane in ($(document).ready(function(){//statement});
+== 
+$(function(){
+
+  // jQuery methods go here...
+
+}); 
+// this is keep performance heigher instead of (window.onload) event if we put script file in head
+"
+A Windows load event fires when all the content on your page is fully loaded including the DOM (document object model) content and asynchronous JavaScript, frames and images. You can also use body onload=. Both are the same; window.onload = function(){} and <body onload="func();"> are different ways of using the same event.
+jQuery $document.ready function event executes a bit earlier than window.onload and is called once the DOM(Document object model) is loaded on your page. It will not wait for the images, frames to get fully load."
+
+
+- has selector in css is deprecated at chrome   
+- each method in jquery return javascript object not jquery object
+- js has events by onload , onclick ,onkeyup but jq use load,click,keypress 
+- prepend,appendto , append
+- child.wrap(parent) 
+
+- off event stop event but on fire it 
+- jquery allow events for elements in runtime using function on(events)
+parent.on(event,selector child will be exist in runtime , function(){});
+
+
+
+
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+    <!-- cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./jq.js"></script>
+    <style>
+        div:has(span) {
+            margin: 100px;
+            background: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div"><span>1</span></div>
+    <div class="div">2</div>
+    <div class="div">3</div>
+
+    <div class="container">
+    </div>
+    <button>click</button>
+    <script src="./script.js"></script>
+    <script>
+        $(document).ready(function () {
+            console.log($('.div'));
+            console.log(document.querySelectorAll(".div"))
+            $("div:has('span')").css("color", "green");
+
+            var button = document.getElementsByTagName("button")[0];
+            var container = $(".container");
+            button.addEventListener("click", function () {
+                for (var i = 0; i < 3; i++) {
+                    var btn = document.createElement("button");
+                    btn.textContent = i + 1;
+                    container.append(btn);
+                    btn.classList.add("btn");
+                    //solution in js 
+                    // btn.addEventListener("click",function(){
+                    //     alert(this.textContent)
+                    // })
+                }
+            });
+
+            //this code will not work as btns created in runtime so we must put event of element while creating it in above code 
+            // var btns = $(".btn");
+            // console.log(btns);
+            // for(var i=0;i<btns.length;i++)
+            // {
+            //     btns[i].addEventListener("click",function(){
+            //         alert(this.textContent)
+            //     })
+            // }
+
+            //another solution using on method in jquery
+            $(".container").on("click", ".btn", function () {
+                alert(this.textContent);
+            });
+
+
+            //framework is steps and use rules code will not work if we don't follow these rules but library has methods and if we don't use it code will work okay
+
+        });
+
+
+
+        $(function () {
+
+            // jQuery methods go here...
+
+        }); 
+    </script>
+</body>
+
+</html>
