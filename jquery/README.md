@@ -3,9 +3,6 @@
 - Assignment #1 about [Task or Notes app](#Notes_app)
 - Assignment #2 about [toggle tabs](#toggle_tabs)
 - Assignment #3 about [pop up img slider](#pop_slider)
-- Assignment #4 about [geo location](#geo_location)
-
-
 
 
 ## Notes_app:
