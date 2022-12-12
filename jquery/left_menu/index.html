@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+    <!-- cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kenia&family=Pacifico&family=Permanent+Marker&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background: #333;
+            font-family: 'Permanent Marker', cursive;
+        }
+
+        body,
+        html {
+            height: 100%;
+        }
+
+        h1 {
+            font-family: 'Permanent Marker', cursive;
+            margin-top: 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        ul {
+            padding: 10px 0px;
+            width: 300px;
+            position: absolute;
+            top: 0;
+            left: -270px;
+            background-color: #fff;
+            height: 100%;
+        }
+
+        li {
+            margin-bottom: 20px;
+            font-size: 17px;
+            list-style: none;
+            padding: 10px;
+            line-height: 30px;
+            background-color: #000;
+            color: rgb(244, 244, 244);
+            cursor: pointer;
+        }
+
+        li div {
+            font-size: 16px;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, .8);
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>hover on the left menu and it will appear to you</h1>
+
+    <ul class="menu">
+        <li>
+            item one
+            <div>
+                hello from item one
+            </div>
+        </li>
+        <li>
+            item two
+            <div>
+                hello from item two
+            </div>
+        </li>
+    </ul>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
