@@ -20,3 +20,4 @@
 ## pop_slider:
   - [live Demo](https://zenab12.github.io/ITI/jquery/pop_slider)
   - [code](https://github.com/zenab12/ITI/blob/main/pop_slider/index.html)
+![127 0 0 1_5500_pop_slider_index html(Nest Hub)](https://user-images.githubusercontent.com/78083890/207047026-2f083a62-aae2-4782-9af7-60818a38d395.png)
