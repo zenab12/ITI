@@ -1,0 +1,139 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle tabs</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kenia&family=Pacifico&family=Permanent+Marker&display=swap');
+
+        * {
+            margin: 0px;
+            margin: 0px
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background: #421a42;
+            gap: 40px;
+            font-family: 'Permanent Marker', cursive;
+        }
+
+        main {
+            background-color: rgb(228, 211, 246);
+            border-radius: 5px;
+        }
+
+        .tabs {
+            display: flex;
+            justify-content: space-between;
+            gap: 5px;
+            list-style: none;
+            width: 500px;
+            padding: 0px;
+            border-bottom: 3px solid rgb(66, 26, 66);
+        }
+
+        .tabs li {
+            padding: 20px;
+            cursor: pointer;
+            color: rgb(66, 26, 66);
+            font-weight: bold;
+            width: 100%;
+            text-align: center;
+            transition: all .3s linear;
+        }
+
+        .content li {
+            margin: 20px 0px;
+            font-size: 17px;
+            color: rgb(66, 26, 66);
+
+        }
+
+        li:first-of-type {
+            border-radius: 5px 0px 0px 0px;
+        }
+
+        li:last-of-type {
+            border-radius: 0px 5px 0px 0px;
+        }
+
+        li.active {
+            background-color: rgb(207, 131, 224);
+            color: rgb(115, 34, 133)
+        }
+
+        .content div {
+            width: 460px;
+            padding: 20px;
+            background-color: rgb(207, 131, 224);
+            color: rgb(65, 32, 97);
+            display: none;
+            border-radius: 0px 0px 5px 5px;
+
+        }
+
+        .content div.active {
+            display: flex;
+        }
+
+        .content div ul {
+            list-style: square;
+        }
+
+        h1 {
+            color: aliceblue;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Toggle Tabs</h1>
+
+    <main>
+        <ul class="tabs">
+            <li class="tab active" id="tab_one">HTML</li>
+            <li class="tab" id="tab_two">CSS</li>
+            <li class="tab" id="tab_three">JS</li>
+        </ul>
+
+        <div class="content">
+            <div class="tab_one active">
+                <ul>
+                    <li>HTML is the standard markup language for Web pages.</li>
+                    <li>With HTML you can create your own Website.</li>
+                    <li>HTML is easy to learn - You will enjoy it!</li>
+                </ul>
+            </div>
+            <div class="tab_two">
+                <ul>
+                    <li> CSS is the language we use to style an HTML document .</li>
+                    <li>CSS describes how HTML elements should be displayed.</li>
+                    <li>This tutorial will teach you CSS from basic to advanced</li>
+                </ul>
+            </div>
+            <div class="tab_three">
+                <ul>
+                    <li> JavaScript is the world's most popular programming language.</li>
+                    <li>JavaScript is the programming language of the Web.</li>
+                    <li>JavaScript is easy to learn.</li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
