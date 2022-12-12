@@ -14,6 +14,7 @@
 ## toggle_tabs:
   - [live Demo](https://zenab12.github.io/ITI/jquery/toggle_tabs)
   - [code](https://github.com/zenab12/ITI/blob/main/toggle_tabs/index.html)
+![127 0 0 1_5500_toggle_tabs_index html(Nest Hub)](https://user-images.githubusercontent.com/78083890/207002104-92a65a27-78fb-40cf-8e2f-f5cbfc7b8462.png)
 
 
 ## pop_slider:
