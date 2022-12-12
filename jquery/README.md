@@ -8,16 +8,16 @@
 ## Notes_app:
   - under refactoring to include local storage.
   - [live Demo](https://zenab12.github.io/ITI/jquery/NotesAdded)
-  - [code](https://github.com/zenab12/ITI/blob/main/NotesAdded/index.html)
+  - [code](https://github.com/zenab12/ITI/blob/main/jquery/NotesAdded/index.html)
 ![_D__Learn_ITI_jquery_NotesAdded_index html_(Nest Hub)](https://user-images.githubusercontent.com/78083890/206912165-bc902d2d-2a12-4da6-b153-2b6d4b9e1a09.png)
 
 ## toggle_tabs:
   - [live Demo](https://zenab12.github.io/ITI/jquery/toggle_tabs)
-  - [code](https://github.com/zenab12/ITI/blob/main/toggle_tabs/index.html)
+  - [code](https://github.com/zenab12/ITI/blob/main/jquery/toggle_tabs/index.html)
 ![127 0 0 1_5500_toggle_tabs_index html(Nest Hub)](https://user-images.githubusercontent.com/78083890/207002104-92a65a27-78fb-40cf-8e2f-f5cbfc7b8462.png)
 
 
 ## pop_slider:
   - [live Demo](https://zenab12.github.io/ITI/jquery/pop_slider)
-  - [code](https://github.com/zenab12/ITI/blob/main/pop_slider/index.html)
+  - [code](https://github.com/zenab12/ITI/blob/main/jquery/pop_slider/index.html)
 ![127 0 0 1_5500_pop_slider_index html(Nest Hub)](https://user-images.githubusercontent.com/78083890/207047026-2f083a62-aae2-4782-9af7-60818a38d395.png)
