@@ -1,0 +1,116 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pop slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kenia&family=Pacifico&family=Permanent+Marker&display=swap');
+
+        * {
+            margin: 0px;
+            margin: 0px
+        }
+        
+
+        body {
+            color: #fff;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background-color: #222;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+            background-color: aliceblue;
+            border: 5px dashed #000;
+            flex-wrap: wrap;
+        }
+
+        img {
+            width: 200px;
+            border: 10px groove #333;
+            transition: opacity .5s linear;
+        }
+
+        h1 {
+            text-shadow: 1px 1px 3px #fff;
+            font-size: 45px;
+            color: transparent;
+        }
+
+        div.pop_up {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            gap: 20px;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+
+        div.pop_up img {
+            width: 500px
+        }
+
+        ul.toggler {
+            display: flex;
+            width: 480px;
+            justify-content: space-between;
+            list-style: none;
+            padding: 10px;
+
+        }
+
+
+        ul.toggler li i {
+            color: rgb(19, 18, 18);
+            font-size: 25px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Photo Gallery </h1>
+    <main class="gallery">
+        <img src="./imgs/horse-1911400_640.jpg">
+        <img src="./imgs/horses-430441_640.jpg">
+        <img src="./imgs/night-1352912_640.jpg">
+        <img src="./imgs/stallion-422110_1920.jpg">
+    </main>
+
+
+    <div class="pop_up">
+        <img src="./imgs/horse-1911400_640.jpg">
+        
+        <ul class="toggler">
+            <li class="prev">
+                <i class="fa-sharp fa-solid fa-arrow-left"></i>
+            </li>
+            <li class="next">
+                <i class="fa-solid fa-arrow-right"></i>
+            </li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
