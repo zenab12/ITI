@@ -3,6 +3,8 @@
 - Assignment #1 about [Task or Notes app](#Notes_app)
 - Assignment #2 about [toggle tabs](#toggle_tabs)
 - Assignment #3 about [pop up img slider](#pop_slider)
+- Assignment #3 about [animated menu](#menu)
+
 
 
 ## Notes_app:
@@ -21,3 +23,8 @@
   - [live Demo](https://zenab12.github.io/ITI/jquery/pop_slider)
   - [code](https://github.com/zenab12/ITI/blob/main/jquery/pop_slider/index.html)
 ![127 0 0 1_5500_pop_slider_index html(Nest Hub)](https://user-images.githubusercontent.com/78083890/207047026-2f083a62-aae2-4782-9af7-60818a38d395.png)
+
+## menu:
+  - [live Demo](https://zenab12.github.io/ITI/jquery/left_menu)
+  - [code](https://github.com/zenab12/ITI/blob/main/jquery/left_menu/index.html)
+![127 0 0 1_5500_left_menu_index html(Nest Hub)](https://user-images.githubusercontent.com/78083890/207064241-bda6d292-2d0f-46fb-845f-5903c367b8e6.png)
