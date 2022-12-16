@@ -1118,7 +1118,16 @@ header ul.flex-center{width:30%}
 header h1{font-size: 17px;}
 header ul.flex-center img{width:20px}
 
+}
 
+@media(max-width:500px)
+{
+.songs{width:100%}
+.songs .heading {
+    width:100%;
+    padding: 60px 0px 0px;
+    gap: 70px;
+}
 }
 
 .light .tabs li{border:3px solid var(--dark-color);color:var(--dark-color);}
