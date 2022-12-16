@@ -127,7 +127,7 @@ aside {
 }
 .menu li:first-of-type i,.menu li i:hover,.menu li.active i{opacity: 1;}
 
-.container main{gap:20px;width:40%;}
+.container main{gap:20px;width:48%;}
 .container main>div{width:100%}
 
 .soundBox {
