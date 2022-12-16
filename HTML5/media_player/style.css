@@ -1111,3 +1111,19 @@ header.flex-center ul{width:40%}
     aside:last-of-type{width:90%}
 
 }
+
+.light .tabs li{border:3px solid var(--dark-color);color:var(--dark-color);}
+.light .tabs li.active{color:#fff;background-color:var(--dark-color)}
+
+.dark .tabs li{border:3px solid #fff;color:#fff;}
+.dark .tabs li.active{color:var(--dark-color);background-color:#fff}
+
+.light header .search i
+{
+    color:var(--dark-color);
+}
+
+.dark header .search i
+{
+    color:var(--dark-color);
+}
