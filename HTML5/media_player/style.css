@@ -1112,6 +1112,15 @@ header.flex-center ul{width:40%}
 
 }
 
+@media(max-width:350px)
+{
+header ul.flex-center{width:30%}
+header h1{font-size: 17px;}
+header ul.flex-center img{width:20px}
+
+
+}
+
 .light .tabs li{border:3px solid var(--dark-color);color:var(--dark-color);}
 .light .tabs li.active{color:#fff;background-color:var(--dark-color)}
 
