@@ -136,6 +136,7 @@ $(function(evt) {
         seek_slider.value = 0;
         ($(audioLength)[0]).value = 0;
     }
+    var flag = 1;
 
 
     function playpauseTrack() {
@@ -145,12 +146,9 @@ $(function(evt) {
         if (!isPlaying) playTrack();
         else pauseTrack();
     }
-    playpause_btn.onclick = playpauseTrack;
-    console.log($($(startBtn)[0]))
-
+   
     function playTrack() {
         // Play the loaded track
-
         ($(audio)[0]).play();
         $(play).find($("img.ctrlbtn")).attr("src", "./imgs/pause-button.png");
         curr_track.play();
@@ -162,7 +160,6 @@ $(function(evt) {
         // Replace icon with the pause icon
         playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
         console.log(isPlaying);
-
     }
 
     function pauseTrack() {
@@ -178,7 +175,6 @@ $(function(evt) {
         // Replace icon with the play icon
         playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>';
         console.log(isPlaying);
-
     }
 
     function nextTrack() {
@@ -261,9 +257,7 @@ $(function(evt) {
 
     //check if selected area is button as image big so mush and change cursor to pointer if area true
 
-    var flag = 1;
     $($(off_onBtn)[0]).on("click", "div.circle_btn", (function(e) {
-        if (flag == 1) {
             if ($($(off_onBtn).find($("img"))[0]).attr("src") == "./imgs/onButton.png") {
                 $($(off_onBtn).find($("img"))[0]).attr("src", "./imgs/offButton.png");
                 $(disc).find($("img")).css({
@@ -288,7 +282,7 @@ $(function(evt) {
                 });
                 $("body").addClass("light");
                 $("body").removeClass("dark");
-
+            
             } else {
                 $($(off_onBtn).find($("img"))[0]).attr("src", "./imgs/onButton.png");
                 $(disc).find($("img")).css({
@@ -313,39 +307,14 @@ $(function(evt) {
                 });
                 $("body").addClass("dark");
                 $("body").removeClass("light");
-
-
             }
-        } else {
-            flag -= 1;
-        }
-        console.log(flag);
-        $($(off_onBtn).find($("img"))[0]).toggleClass("active");
+            $($(off_onBtn).find($("img"))[0]).toggleClass("active");
     }));
 
 
-
-    $(startBtn).find($(".circle_btn")).mousemove(function(e) {
-        $($(startBtn)[0]).on("click", ".circle_btn", (function(e) {
-            if (flag == 1) {
-                playpauseTrack();
-
-            } else {
-                flag -= 1;
-            }
-
-        }));
-    });
-
-
-    $($($(controller)[0]).find($("div.circle_btn"))[0]).on("click", (function(e) {
-        if (flag == 1) {
-            playpauseTrack();
-
-        } else {
-            flag -= 1;
-        }
-    }));
+    playpause_btn.onclick = playpauseTrack;
+    $($(startBtn)[0]).find($(".circle_btn")).on("click",playpauseTrack);
+    $($($(controller)[0]).find($("div.circle_btn"))[0]).on("click",playpauseTrack);
 
 
 
