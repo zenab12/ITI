@@ -85,7 +85,7 @@ header input {
 header .search i {
     position: absolute;
     left: 10px;
-    top: 4px;
+    top: 5px;
 }
 
 header input:placeholder-shown {
@@ -749,6 +749,11 @@ a{color:#222}
     header input {
         width: 100%;
     }
+    
+header .search i {
+    top: 7px;
+}
+
     .container{flex-wrap: wrap;gap:0px}
 
     .menu {
