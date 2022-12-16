@@ -25,6 +25,7 @@
   - Implement the functionality of audio controls and make your own media player.
   - [live Demo](https://zenab12.github.io/ITI/HTML5/media_player)
   - [code](https://github.com/zenab12/ITI/blob/main/HTML5/media_player/index.html)
+![127 0 0 1_5500_index html(Nest Hub Max) (2)](https://user-images.githubusercontent.com/78083890/207998635-c4ad5a90-b657-4913-9524-3de5298e9941.png)
 
   
 ## geo_location:
