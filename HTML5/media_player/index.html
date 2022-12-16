@@ -1,0 +1,256 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media player</title>
+    <link rel="icon" href="./imgs/disc_1.png">
+    <link rel="stylesheet" href="./style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+ 
+</head>
+  <body class="light">
+    <header class="flex-center">
+        <h1 class="logo">ZienMusic</h1>
+
+      <div class="search_logo flex-center">
+        <div class="search">
+          <input type="search" placeholder="search for songs,artist">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <ul class="header-nav flex-center">
+        <li class="message">
+          <i class="fa-solid fa-envelope"></i>
+        </li>
+        <li class="notification">
+          <i class="fa-solid fa-bell"></i>
+        </li>
+        <li class="profile">
+          <img src="./imgs/robot.png">
+        </li>
+      </ul>
+    </header>
+    <div class="container">
+      <aside class="nav">
+        <ul class="menu flex-column">
+          <li>
+            <i class="fa-solid fa-house"></i>
+          </li>
+          <li>
+            <i class="fa-solid fa-heart"></i>
+          </li>
+          <li>
+            <i class="fa-solid fa-music"></i>
+          </li>
+          <li>
+            <i class="fa-solid fa-compact-disc"></i>
+          </li>
+          <li>
+            <i class="fa-solid fa-filter"></i>
+          </li>
+          <li>
+            <i class="fa-solid fa-barcode"></i>
+          </li>
+        </ul>
+      </aside>
+      <main class="flex-column">
+        <div class="soundBox flex-column flex-center">
+          <div class="nails upper">
+            <img src="./imgs/nail.png">
+            <img src="./imgs/nail.png">
+          </div>
+          <div class="off_on btn">
+            <img src="./imgs/offButton.png">
+            <div class="circle_btn"></div>
+          </div>
+          <div class="base">
+            <img src="./imgs/base.png">
+            <div class="disc">
+              <img src="./imgs/disc_1.png">
+            </div>
+          </div>
+          <div class="controller">
+            <img src="./imgs/tailBtn.png">
+            <img src="./imgs/tail.png" class="tail">
+            <div class="circle_btn"></div>
+          </div>
+          <div class="volume">
+            <img src="./imgs/sounder.png">
+            <!-- <img src="./imgs/sounderCtrl.png" class="ctrl"> -->
+            <input type="range" value="0" min="0" max="10">
+            <img src="./imgs/volume.png" class="ctrlbtn">
+          </div>
+          <div class="play">
+            <img src="./imgs/sounder.png">
+            <input type="range" value="0" min="0" max="100" class="audio-length ">
+            <img src="./imgs/play-button.png" class="ctrlbtn">
+          </div>
+          <div class="start_pause btn">
+            <img src="./imgs/start.png">
+            <div class="circle_btn"></div>
+          </div>
+          <div class="nails down">
+            <img src="./imgs/nail.png">
+            <img src="./imgs/nail.png">
+          </div>
+        </div>
+        <div class="description">
+          <h2>The suffering</h2>
+          <div class="comments">
+            <span>
+              <i class="fa-regular fa-square-plus"></i>
+            </span>
+            <span> 397 </span>
+          </div>
+        </div>
+
+        <div class="slider_container">
+          <div class="current-time">00:00</div>
+          <input type="range" min="1" max="100"         value="0" class="seek_slider">
+          <div class="total-duration">00:00</div>
+        </div>
+        <!-- Define the section for displaying track buttons -->
+        <div class="buttons">
+          <div class="prev-track">
+            <i class="fa fa-step-backward fa-2x"></i>
+          </div>
+          <div class="playpause-track">
+            <i class="fa fa-play-circle fa-5x"></i>
+          </div>
+          <div class="next-track" onclick="nextTrack()">
+            <i class="fa fa-step-forward fa-2x"></i>
+          </div>
+        </div>
+         <!-- for test only -->
+                 <div><audio controls></audio></div>
+      </main>
+      <aside class="songs flex-column">
+        <div class="heading">
+          <h2>
+            <span>Music</span>Categories
+          </h2>
+          <a href="#">view all</a>
+        </div>
+        <div class="content">
+          <ul class="tabs">
+            <li class="tab active" id="tab_one">classic</li>
+            <li class="tab" id="tab_two">90s</li>
+            <li class="tab" id="tab_three">instrumental</li>
+            <li class="tab" id="tab_four">Modern</li>
+          </ul>
+          <div class="tab_one active">
+            <ul>
+              <li>
+                <img src="./imgs/kid-1077793_640.jpg">
+                <p class="name"> night</p>
+                <a href="#">by omar</a>
+              </li>
+              <li>
+                <img src="./imgs/arab-618749_640.jpg">
+                <p class="name"> walking</p>
+                <a href="#">by omar</a>
+              </li>
+              <li>
+                <img src="./imgs/man-6527045_640.jpg">
+                <p class="name"> back</p>
+                <a href="#">by omar</a>
+              </li>
+              <li>
+                <img src="./imgs/man-6527045_640.jpg">
+                <p class="name"> walking</p>
+                <a href="#">by omar</a>
+              </li>
+            </ul>
+          </div>
+          <div class="tab_two">
+            <ul>
+              <li>
+                <img src="./imgs/cami-1819673_1920.jpg">
+                <p class="name"> night</p>
+                <a href="#">by omar</a>
+              </li>
+              <li>
+                <img src="./imgs/arab-618749_640.jpg">
+                <p class="name"> walking</p>
+                <a href="#">by omar</a>
+              </li>
+              <li>
+                <img src="./imgs/man-6527045_640.jpg">
+                <p class="name"> back</p>
+                <a href="#">by omar</a>
+              </li>
+            </ul>
+          </div>
+          <div class="tab_three">
+            <ul>
+              <li>
+                <img src="./imgs/man-6527045_640.jpg">
+                <p class="name"> night</p>
+                <a href="#">by omar</a>
+              </li>
+              <li>
+                <img src="./imgs/arab-618749_640.jpg">
+                <p class="name"> walking</p>
+                <a href="#">by omar</a>
+              </li>
+              <li>
+                <img src="./imgs/man-6527045_640.jpg">
+                <p class="name"> back</p>
+                <a href="#">by omar</a>
+              </li>
+            </ul>
+          </div>
+          <div class="tab_four">
+            <ul>
+              <li>
+                <img src="./imgs/cami-1819673_1920.jpg">
+                <p class="name"> night</p>
+                <a href="#">by omar</a>
+              </li>
+              <li>
+                <img src="./imgs/cami-1819673_1920.jpg">
+                <p class="name"> walking</p>
+                <a href="#">by omar</a>
+              </li>
+              <li>
+                <img src="./imgs/cami-1819673_1920.jpg">
+                <p class="name"> back</p>
+                <a href="#">by omar</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </main>
+        <div class="favourite flex-column">
+          <h3>playlist(3)</h3>
+          <div class="fav">
+            <div>
+              <img src="./imgs/cami-1819673_1920.jpg">
+              <div class="details">
+                <p>night</p>
+                <a href="#">by omar</a>
+              </div>
+            </div>
+            <div>
+              <img src="./imgs/cami-1819673_1920.jpg">
+              <div class="details">
+                <p>Walking</p>
+                <a href="#">by omar</a>
+              </div>
+            </div>
+            <div>
+              <img src="./imgs/cami-1819673_1920.jpg">
+              <div class="details">
+                <p>back</p>
+                <a href="#">by omar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
