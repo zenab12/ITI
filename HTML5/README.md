@@ -23,8 +23,8 @@
 
 ## media_player:
   - Implement the functionality of audio controls and make your own media player.
-  - [live Demo](https://zenab12.github.io/ITI/HTML5/validtion)
-  - [code](https://github.com/zenab12/ITI/blob/main/HTML5/validation/index.html)
+  - [live Demo](https://zenab12.github.io/ITI/HTML5/mediaplayer)
+  - [code](https://github.com/zenab12/ITI/blob/main/HTML5/mediaplayer/index.html)
 
   
 ## geo_location:
