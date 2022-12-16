@@ -85,7 +85,7 @@ header input {
 header .search i {
     position: absolute;
     left: 10px;
-    top: 8px;
+    top: 4px;
 }
 
 header input:placeholder-shown {
