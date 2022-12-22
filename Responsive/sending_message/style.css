@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --light-gray: #e4e4e4;
+    --dark-gray: #696868;
+    --main-blue: #468aff;
+    --main-white: #fff;
+    --main-color: #9adbf7;
+    --main-black:#000;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:5px solid var(--dark-gray);
+    border-radius: 10px;
+    gap:20px;
+    padding:10px;
+    width:60vw;
+}
+
+main img{width:35px;cursor: pointer;}
+form{display: flex;justify-content: space-between;gap:10px;}
+form label 
+{
+    display: inline-block;
+    cursor: pointer;
+}
+
+form label img ,.message img
+{
+    width:25px;
+}
+
+.message 
+{
+    flex-grow: 4;
+    position: relative;
+}
+
+.message input
+{
+    width:100%;
+    padding:10px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.message img 
+{
+    position: absolute;
+    right: 10px;
+    top:8px;
+}
+
+@media (max-width:767px)
+{
+    main 
+    {
+        width:95vw;
+    }
+}
