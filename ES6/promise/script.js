@@ -28,9 +28,10 @@ new Promise(function (res, rej) {
     let name = document.querySelector("article p");
     console.log(userbtn);
     userbtn.forEach((btn, ind) => {
+      ind +=1;
       btn.addEventListener("click", function () {
         name.innerHTML = this.innerHTML;
-        getPost(`https://jsonplaceholder.typicode.com/posts?userId=${++ind} `);
+        getPost(`https://jsonplaceholder.typicode.com/posts?userId=${ind} `);
       });
     });
   })
