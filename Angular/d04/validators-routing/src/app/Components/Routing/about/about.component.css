@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Kenia&family=Pacifico&family=Permanent+Marker&family=Press+Start+2P&family=Quicksand:wght@200&family=Russo+One&display=swap");
+
+* {
+  font-family: "Russo One", sans-serif;
+}
+div.about {
+  background-image: url("../../../../assets/imgs/32485.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1000px;
+  box-sizing: border-box;
+  width: 80%;
+  margin: 50px auto;
+  padding: 100px;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #311301;
+  margin: 10px;
+  margin-left: -230px;
+}
+
+p {
+  margin: 20px 100px;
+  width: 70%;
+  font-size: 1.4rem;
+  color: #c16b2f;
+}
+
+div.content {
+  position: absolute;
+  z-index: 10;
+  margin: auto;
+}
+
+div.children {
+  position: absolute;
+  width: 900px;
+  bottom: 50px;
+  left: 50px;
+  margin: auto;
+}
+div.children img {
+  width: 100%;
+}
+
+@media (min-width: 501px) and (max-width: 992px) {
+  div.about {
+    width: 95%;
+    padding: 50px;
+  }
+  h1 {
+    font-size: 2rem;
+    margin: auto;
+  }
+
+  p {
+    margin: 10px auto;
+    width: 90%;
+    font-size: 1.3rem;
+    display: none;
+  }
+
+  p:first-of-type {
+    display: flex;
+  }
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 2.5rem;
+    margin: auto;
+  }
+
+  p {
+    margin: 10px auto;
+    width: 90%;
+    font-size: 1.5rem;
+  }
+
+  p:first-of-type {
+    display: flex;
+  }
+  div.children {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  div.about {
+    width: 95%;
+    padding: 30px;
+  }
+  h1 {
+    font-size: 1.5rem;
+    margin: 10px auto;
+  }
+
+  p {
+    margin: 10px auto;
+    width: 90%;
+    font-size: 0.9rem;
+    display: none;
+  }
+
+  p:first-of-type {
+    display: flex;
+  }
+
+  div.children {
+    position: absolute;
+    width: 400px;
+    bottom: 150px;
+    left: 0px;
+    margin: auto;
+  }
+}

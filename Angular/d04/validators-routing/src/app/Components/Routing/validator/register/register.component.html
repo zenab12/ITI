@@ -1,0 +1,55 @@
+<main>
+  <h1 class="text-center"> School Registeration form 🤍 </h1>
+  <div class="form-container d-flex flex-column align-items-center justify-content-center  pt-4 pb-4 container g-3">
+    <form class="form container" [formGroup]="RegisterationForm">
+      <div class="form-group d-flex flex-column">
+        <label for="name" class="p-2">Name</label>
+        <input id="name" formControlName="name" type="text" placeholder="enter your name" class="p-2 form-control"
+          [value]="Name" />
+        <div class="message error" *ngIf="!NameValid ; else NameValidation">
+          {{NameRequired}}
+        </div>
+        <ng-template #NameValidation>
+          <div *ngIf="NameValid" class="message correct">
+            Congrats, The Name is valid
+          </div>
+        </ng-template>
+      </div>
+
+      <div class="form-group d-flex flex-column">
+        <label for="age" class="p-2">Age</label>
+        <input id="age" formControlName="age" type="number" placeholder="enter your age" class="p-2 form-control"
+          [value]="Age" />
+        <div class="message error" *ngIf="!AgeValid ; else AgeValidation">
+          {{message}}
+        </div>
+        <ng-template #AgeValidation>
+          <div *ngIf="AgeValid" class="message correct">
+            You enter age correctly
+          </div>
+        </ng-template>
+      </div>
+
+      <div class="form-group d-flex flex-column">
+        <label for="email" class="p-2">Email</label>
+        <input id="email" formControlName="email" type="email" placeholder="enter your Email" class="p-2 form-control"
+          [value]="Email" />
+        <div class="message error" *ngIf="!EmailValid ; else EmailValidation">
+          {{EmailMessage}}
+        </div>
+        <ng-template #EmailValidation>
+          <div *ngIf="EmailValid" class="message correct">
+            You enter email correctly
+          </div>
+        </ng-template>
+      </div>
+      <button class="d-flex justify-content-center align-self-center" type="submit" (click)="Add()">Add</button>
+
+
+    </form>
+
+  </div>
+
+
+
+</main>

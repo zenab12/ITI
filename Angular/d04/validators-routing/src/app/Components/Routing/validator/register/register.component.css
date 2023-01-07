@@ -1,0 +1,114 @@
+@import "../../../../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Kenia&family=Pacifico&family=Permanent+Marker&family=Press+Start+2P&family=Quicksand:wght@200&family=Russo+One&display=swap");
+
+* {
+  font-family: "Russo One", sans-serif;
+}
+h1 {
+  /* color: #cef4ee; */
+  background-image: url("../../../../../assets/imgs/1.png");
+  background-size: cover;
+  margin: 20px auto;
+  font-size: 3rem;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  /* background-clip: text; */
+  /*text-shadow: inset 20px 20px 60px #ffffff, inset -20px -20px 60px #cef4ee; */
+}
+.form-container {
+  background-image: url("../../../../../assets/imgs/1.png");
+  border-radius: 10px;
+  border: 25px double #fff;
+  box-shadow: inset 20px 20px 60px #ffffff, inset -20px -20px 60px #cef4ee;
+}
+
+.form-container::after {
+  width: 0;
+  height: 0;
+  display: block;
+  z-index: -10;
+  bottom: -140px;
+  left: 0px;
+  width: 100px;
+  content: "";
+  position: relative;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  border-bottom: 200px solid #fff;
+  border-radius: 10px;
+}
+.form {
+  width: 80%;
+  gap: 20px;
+  overflow: hidden;
+  position: relative;
+  z-index: 5;
+  margin-bottom: -200px;
+}
+label {
+  font-size: 1.7rem;
+  color: #68c7fb;
+  font-family: "Russo One", sans-serif;
+}
+
+form input {
+  outline: none;
+  border: 5px double #b2f1e8;
+  background-color: #edfbf8;
+  padding: 10px;
+  font-size: 1.3rem;
+  color: #0077b6;
+  padding: 15px;
+  font-family: "Russo One", sans-serif;
+}
+button {
+  transition: all 0.5s linear;
+  cursor: pointer;
+  flex-grow: 2;
+  outline: none;
+  border: none;
+  border-bottom: 5px solid #f1d01a;
+  padding: 5px;
+  color: #fff;
+  background-color: #ffdf31;
+  font-size: 2rem;
+  width: 250px;
+  border-radius: 10px;
+  margin: 20px auto;
+  transition: all 0.3s linear;
+  position: relative;
+  z-index: 2;
+}
+
+button:hover {
+  background: #efcc07;
+}
+
+input::placeholder {
+  color: #68c7fb !important;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 15px;
+  font-family: "Russo One", sans-serif;
+}
+
+form .message {
+  min-height: 20px;
+  font-size: 1rem;
+  background-color: #daeffa;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px;
+  margin: 20px 0px;
+  padding-bottom: 35px;
+  border: 5px dashed #f7f6f1;
+  font-family: "Russo One", sans-serif;
+}
+
+form .message.error {
+  color: red;
+}
+form .message.correct {
+  color: green;
+}

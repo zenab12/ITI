@@ -1,0 +1,13 @@
+@import "../../../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+main {
+  /* background: linear-gradient(
+    97deg,
+    rgb(202, 240, 248),
+    rgb(144, 224, 239),
+    rgb(144, 224, 239)
+  ); */
+  /*
+  background-image: url("../../../../assets/imgs/Pattern.png");
+  background-size: contain; */
+}

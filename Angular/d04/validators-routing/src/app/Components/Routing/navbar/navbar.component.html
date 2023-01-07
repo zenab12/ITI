@@ -1,0 +1,37 @@
+<!-- <ul>
+        <li><a [routerLinkActiveOptions]="{exact:true}" routerLinkActive="active" routerLink="/">Home</a></li>
+        <!-- <li><a [routerLinkActiveOptions]="{exact:true}" routerLinkActive="active" routerLink="/home">Home</a></li>
+        <li><a routerLinkActive="active" routerLink="validator/register">Register</a></li>
+        <li><a routerLinkActive="active" routerLink="/validator/validator.component.html">Data</a></li>
+        <li><a routerLinkActive="active" routerLink="validator/students">Students Details</a></li>
+        <li><a routerLinkActive="active" routerLink="/about">About</a></li>
+        <li><a routerLinkActive="active" routerLink="/error">Error</a></li>
+      </ul> -->
+
+<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+  <div class="container-fluid ps-5">
+    <a class="navbar-brand" href="#"><img src="./assets/imgs/logo.png" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav d-flex justify-content-start container-lg ps-md-5 gap-md-5">
+        <li class="nav-item">
+          <a class="nav-link" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="active"
+            routerLink="/home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/validator/validator.component.html">Student
+            Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/error">Error</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

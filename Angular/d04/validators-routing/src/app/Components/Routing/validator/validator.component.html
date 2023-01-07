@@ -1,0 +1,11 @@
+<main>
+
+
+  <div>
+    <app-register (register)=GetData($event)>
+
+    </app-register>
+  </div>
+  <app-students [StudentsFromParent]="AllStudents">
+  </app-students>
+</main>

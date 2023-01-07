@@ -1,0 +1,22 @@
+<main class="container">
+  <h1>Students</h1>
+
+  <img src="./assets/imgs/6.png" alt="school tools">
+  <table>
+    <thead>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Email</th>
+      <th>Delete student</th>
+
+    </thead>
+    <tbody>
+      <tr *ngFor="let s of StudentsFromParent">
+        <td>{{s.name}}</td>
+        <td>{{s.age}}</td>
+        <td>{{s.email}}</td>
+        <td><button class="delete">Delete</button></td>
+      </tr>
+    </tbody>
+  </table>
+</main>

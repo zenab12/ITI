@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  selector: 'app-validator',
+  templateUrl: './validator.component.html',
+  styleUrls: ['./validator.component.css'],
 })
-export class AppComponent {
-  title = 'validators-routing';
+export class ValidatorComponent {
+  //Code TS
   AllStudents: { name: string; age: number; email: string }[] = [];
   DataFromRegister: { name: string; age: number; email: string } = {
     name: '',
@@ -23,4 +23,9 @@ export class AppComponent {
   constructor() {
     console.log(this.AllStudents);
   }
+  @Input() StudentsFromBigParent: {
+    name: string;
+    age: number;
+    email: string;
+  }[] = [];
 }

@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Kenia&family=Pacifico&family=Permanent+Marker&family=Press+Start+2P&family=Quicksand:wght@200&family=Russo+One&display=swap");
+
+* {
+  font-family: "Russo One", sans-serif;
+}
+h1 {
+  /* color: #cef4ee; */
+  background-image: url("../../../../../assets/imgs/1.png");
+  background-size: cover;
+  margin: 20px auto;
+  font-size: 3rem;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-top: 100px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+  gap: 30px;
+  position: relative;
+}
+
+/* table::before {
+  content: "";
+  width: 300px;
+  background-image: url("../../../../../assets/imgs/6.png");
+  background-size: cover;
+  display: block;
+  position: relative;
+  top: -100px;
+  left: -10px;
+  height: 100px;
+} */
+
+main img {
+  position: absolute;
+  top: -454px;
+  left: -548px;
+  width: 961px;
+  z-index: 0;
+}
+table {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+  overflow: scroll;
+}
+table th {
+  background-image: url("../../../../../assets/imgs/1.png");
+  color: #e7cc32;
+  font-size: 1.6rem;
+  padding: 13px;
+}
+table thead {
+  border-radius: 10px;
+}
+
+/* th:first-of-type,
+tr td:first-of-type {
+  border-radius: 10px 0px 0px 10px;
+}
+
+th:last-of-type,
+tr td:last-of-type {
+  border-radius: 0px 10px 10px 0px;
+} */
+
+tr td {
+  font-size: 1.5rem;
+  padding: 5px;
+  text-align: center;
+}
+td button {
+  background: #f1d01a;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 17px;
+  width: 150px;
+  margin: auto;
+}
+
+td:last-of-type {
+  width: 20%;
+}
+td:last-of-type button {
+  flex-grow: 0;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+td,
+th {
+  border: 2px solid #b2f1e8;
+}
+thead tr {
+  background: #fff;
+}
+tbody tr:nth-of-type(odd) td {
+  background-color: #8ccdfb;
+  color: rgb(255, 255, 255);
+}
+
+.delete:hover {
+  background: #f3d00a;
+}
+
+tbody tr:nth-of-type(even) td {
+  background-color: #fff;
+  color: #64bfff;
+}
+h1 {
+  font-size: 3rem;
+}
+
+@media (max-width: 500px) {
+  main {
+    width: 90%;
+    position: relative;
+    overflow-x: scroll;
+  }
+}

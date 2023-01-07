@@ -1,0 +1,39 @@
+@import "../../../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Kenia&family=Pacifico&family=Permanent+Marker&family=Press+Start+2P&family=Quicksand:wght@500&family=Russo+One&display=swap");
+:root {
+  --main-color: #64bfff;
+}
+nav.navbar {
+  /* background-color: #64bfff !important; */
+  font-size: 1.8rem;
+  color: #fff;
+  font-family: "Russo One", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  position: relative;
+  z-index: 5;
+}
+
+.navbar-brand img {
+  width: 100px;
+}
+
+.navbar ul.navbar-nav {
+  gap: 80px !important;
+  position: relative;
+  z-index: 100;
+}
+.navbar .nav-link,
+.navbar .nav-link.active {
+  color: #fff;
+  transition: all 0.3s linear;
+}
+
+.navbar .nav-link:hover {
+  color: #ffdf31;
+}
+
+@media (max-width: 1300px) {
+  .navbar ul.navbar-nav {
+    gap: 40px !important;
+  }
+}

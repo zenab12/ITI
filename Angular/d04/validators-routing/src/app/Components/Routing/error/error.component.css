@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Kenia&family=Pacifico&family=Permanent+Marker&family=Press+Start+2P&family=Quicksand:wght@200&family=Russo+One&display=swap");
+
+main {
+  width: 70%;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: inset 20px 20px 60px #bebebe, inset -20px -20px 60px #ffffff;
+  border: 10px solid #656e34;
+}
+
+main img {
+  width: 100%;
+  position: relative;
+  left: 15%;
+  top: -60px;
+}
+
+main p {
+  text-align: center;
+  font-size: 2rem;
+  color: #656e34;
+  font-family: "Russo One", sans-serif;
+  margin-top: -150px;
+  margin-bottom: 50px;
+}

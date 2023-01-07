@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Kenia&family=Pacifico&family=Permanent+Marker&family=Press+Start+2P&family=Quicksand:wght@200&family=Russo+One&display=swap");
+@import "../../../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+header {
+  position: relative;
+  background-color: #64bfff;
+  border-bottom: 15px double #fff;
+  height: 620px;
+  font-family: "Russo One", sans-serif;
+  color: #fff;
+}
+
+header div {
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+
+header div:first-of-type {
+  gap: 30px;
+  z-index: 10;
+}
+
+header div:last-of-type {
+  top: -200px;
+  right: 0px;
+  height: 902px;
+  width: 80%;
+  overflow: hidden;
+}
+
+header div:last-of-type img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  right: -130px;
+}
+
+h1 {
+  font-size: 6rem;
+  width: 50%;
+  font-weight: 200;
+  text-shadow: -5px -5px 5px #2c78ad;
+}
+
+p {
+  font-size: 1.4rem;
+  font-weight: 200;
+  font-family: "Quicksand", sans-serif;
+  width: 40%;
+}
+
+button {
+  /* background-image: url("../../../../assets/imgs/5.png"); */
+  background-color: #ffdf31;
+  width: 250px;
+  padding: 10px;
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  border-bottom: 10px solid #f5d312;
+  transition: all 0.5s linear;
+  outline: none;
+}
+
+button:hover {
+  background-color: #f6d61f;
+}
+
+@media (max-width: 767px) {
+  header div:first-of-type {
+    width: 100%;
+    padding: 0;
+    margin: 20px auto;
+  }
+
+  h1 {
+    width: 80%;
+    text-align: center;
+  }
+  p {
+    width: 90%;
+    text-align: justify;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  header div:first-of-type {
+    width: 100%;
+    padding: 0;
+    margin: 20px auto;
+  }
+
+  h1 {
+    width: 100%;
+    text-align: center;
+  }
+  p {
+    width: 90%;
+    text-align: justify;
+  }
+}
