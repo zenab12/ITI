@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE UNIVERSITY SYSTEM "assignment1-css.dtd">-->
+<?xml-stylesheet type="text/css" href="BonusStyle.css"?>
+<UNIVERSITY>
+	<UNIVERSITY_NAME>THE AMERICAN UNIVERSITY IN CAIRO</UNIVERSITY_NAME>
+	<DATE>ESTABLISHED 1919</DATE>
+	<PRESIDENT>
+		President Name: DR. John D. Gerhart
+	</PRESIDENT>
+	<OFFICERS>
+		<TITLE>OFFICERS</TITLE>
+		<ONEOFFICER>
+			<OFFICER_NAME>Officer Name: Paul B. Hannon  -</OFFICER_NAME>
+			<OFFICER_POSITION>-  Officer Position: Chairman</OFFICER_POSITION>
+		</ONEOFFICER>
+		<ONEOFFICER>
+			<OFFICER_NAME>Officer Name: W. Kelly Simpson  -</OFFICER_NAME>
+			<OFFICER_POSITION>-  Officer Position: Vice Chairmain</OFFICER_POSITION>
+		</ONEOFFICER>
+		<ONEOFFICER>
+			<OFFICER_NAME>Officer Name: Edith Crary Howe  -</OFFICER_NAME>
+			<OFFICER_POSITION>-  Officer Position: Treasurer</OFFICER_POSITION>
+		</ONEOFFICER>
+		<ONEOFFICER>
+			<OFFICER_NAME>Officer Name: J. Dinsmore Adams, Jr.  -</OFFICER_NAME>
+			<OFFICER_POSITION>-  Officer Position: Recording secretary								</OFFICER_POSITION>
+		</ONEOFFICER>
+		<ONEOFFICER>
+			<OFFICER_NAME>Officer Name:  Larry L. Fabian  -</OFFICER_NAME>
+			<OFFICER_POSITION>-  Officer Position: Executive Secretary								</OFFICER_POSITION>
+		</ONEOFFICER>
+	</OFFICERS>
+	<PROVOSTS>
+		<TITLE>PROVOSTS</TITLE>
+		<ONEPROVOST>
+			<PROVOST_NAME>Provost Name:  Earl Sullivan  -</PROVOST_NAME>
+			<PROVOST_POSITION>-  Provost Position: Provost</PROVOST_POSITION>
+		</ONEPROVOST>
+		<ONEPROVOST>
+			<PROVOST_NAME>Provost Name: Mahmoud Farag  -</PROVOST_NAME>
+			<PROVOST_POSITION>-  Provost Postions: Vice Provost									</PROVOST_POSITION>
+		</ONEPROVOST>
+		<ONEPROVOST>
+			<PROVOST_NAME>Provost Name: John Swanson  -</PROVOST_NAME>
+			<PROVOST_POSITION>-  Provost Position: Assistant Provost								</PROVOST_POSITION>
+		</ONEPROVOST>
+	</PROVOSTS>
+	<SCHOOLS>
+		<TITLE>THE AMERICAN UNIVERSITY HAS THREE MAIN SCHOOLS.</TITLE>
+		<ONESCHOOL>
+			<SCHOOL_NAME>School of Business, Economics and Communication.				</SCHOOL_NAME>
+		</ONESCHOOL>
+		<ONESCHOOL>
+			<SCHOOL_NAME>School of Humanities and Social Sciences.							</SCHOOL_NAME>
+		</ONESCHOOL>
+		<ONESCHOOL>
+			<SCHOOL_NAME>School of Sciences and Engineering.</SCHOOL_NAME>
+		</ONESCHOOL>
+	</SCHOOLS>
+	<SCHOOL>
+		<THE_SCHOOL>School of Humanities and Social Sciences.</THE_SCHOOL>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: W.C.Reed</DEPTHEAD>
+			<DEPTNAME>Department Name: African Studies</DEPTNAME>
+			<MAJOR>Major: Not Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (0)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (15)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: J. Rodenbeck</DEPTHEAD>
+			<DEPTNAME>Department Name: American Studies</DEPTNAME>
+			<MAJOR>Major: Not Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (0)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (15)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: N.S Hopkins</DEPTHEAD>
+			<DEPTNAME>Department Name: Anthropology</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (120)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (15)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: M. El Rabie</DEPTHEAD>
+			<DEPTNAME>Department Name: Arabic Studies</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (120)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (15)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: M. Robinson</DEPTHEAD>
+			<DEPTNAME>Department Name: Art</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (120)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (15)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: A. Bayat</DEPTHEAD>
+			<DEPTNAME>Department Name: Development Studies</DEPTNAME>
+			<MAJOR>Major: Not Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (0)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (15)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: F. Haikal</DEPTHEAD>
+			<DEPTNAME>Department Name: Egyptology</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (120)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (15)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: D. Shoukri</DEPTHEAD>
+			<DEPTNAME>Department Name: English and Comparative Literature					</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (120)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (15)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: Kenny Suit</DEPTHEAD>
+			<DEPTNAME>Department Name: Film</DEPTNAME>
+			<MAJOR>Major: Not Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (0)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (15)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>*No head*</DEPTHEAD>
+			<DEPTNAME>Department Name: Gender Studies</DEPTNAME>
+			<MAJOR>Major: Not Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (0)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (15)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: E. Sartain</DEPTHEAD>
+			<DEPTNAME>Department Name: History</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (120)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (16)</MIN_COURSES>
+		</DEPARTMENT>
+	</SCHOOL>
+	<SCHOOL>
+		<THE_SCHOOL>School of Business, Economics and Communication.</THE_SCHOOL>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: A. Mortagy</DEPTHEAD>
+			<DEPTNAME>Department Name: Business Administration</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (51)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (18)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: A. El Mawaziny</DEPTHEAD>
+			<DEPTNAME>Department Name: Economics</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (120)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (18)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: P. Bieber-Roberts</DEPTHEAD>
+			<DEPTNAME>Department Name: Journalism and Mass Communication</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (120)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (15)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: A. Mortagy</DEPTHEAD>
+			<DEPTNAME>Department Name: Accounting</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (127)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (15)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: A. Mortagy</DEPTHEAD>
+			<DEPTNAME>Department Name: Managment</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (127)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (15)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: A. Mortagy</DEPTHEAD>
+			<DEPTNAME>Department Name: Finance</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (127)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (15)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: A. Mortagy</DEPTHEAD>
+			<DEPTNAME>Department Name: Marketing</DEPTNAME>
+			<MAJOR>Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (127)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (15)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: A. Mortagy</DEPTHEAD>
+			<DEPTNAME>Department Name: Organization</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (127)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (15)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: A. Mortagy</DEPTHEAD>
+			<DEPTNAME>Department Name: Public Administration</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (127)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (15)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: A. Mortagy</DEPTHEAD>
+			<DEPTNAME>Department Name: Systems Managment</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (127)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (15)</MIN_COURSES>
+		</DEPARTMENT>
+	</SCHOOL>
+	<SCHOOL>
+		<THE_SCHOOL>School of Sciences and Engineering.</THE_SCHOOL>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: A. Main</DEPTHEAD>
+			<DEPTNAME>Department Name: Biology</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (130)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (19-21)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: P. Askalani</DEPTHEAD>
+			<DEPTNAME>Department Name: Chemistry</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (131)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (18)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: A. Goneid</DEPTHEAD>
+			<DEPTNAME>Department Name: Computer Science</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (142)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (15)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: T. Hassanein</DEPTHEAD>
+			<DEPTNAME>Department Name: Electronics</DEPTNAME>
+			<MAJOR>Major: Not Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (0)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (17-18)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: M. Haroun</DEPTHEAD>
+			<DEPTNAME>Department Name: Construction Engineering</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (162)</MAJ_COURSES>
+			<MINOR>Minor: Not Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (0)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: M. Serag El Din</DEPTHEAD>
+			<DEPTNAME>Department Name: Mechanical Engineering</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (162)</MAJ_COURSES>
+			<MINOR>Minor: Not Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (0)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: M. Mostafa</DEPTHEAD>
+			<DEPTNAME>Department Name: Mathematics</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (130)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (15)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: A. El Fiqi</DEPTHEAD>
+			<DEPTNAME>Department Name: Physics</DEPTNAME>
+			<MAJOR>Major: Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (132)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (18)</MIN_COURSES>
+		</DEPARTMENT>
+		<DEPARTMENT>
+			<DEPTHEAD>Head: S. Arafa</DEPTHEAD>
+			<DEPTNAME>Department Name: Science</DEPTNAME>
+			<MAJOR>Major: Not Allowed</MAJOR>
+			<MAJ_COURSES>Major Courses: (0)</MAJ_COURSES>
+			<MINOR>Minor: Allowed</MINOR>
+			<MIN_COURSES>Minor Courses: (17)</MIN_COURSES>
+		</DEPARTMENT>
+	</SCHOOL>
+	<!--<SIGNATURE>&me;</SIGNATURE>-->
+</UNIVERSITY>

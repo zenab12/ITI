@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+	<xs:simpleType name="job">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Engineer"/>
+			<xs:enumeration value="Doctor"/>
+			<xs:enumeration value="Account"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="sport">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="football"/>
+			<xs:enumeration value="tennis"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="Family">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Grandfather">
+					<xs:complexType mixed="true">
+						<xs:sequence>
+							<xs:element name="Father">
+								<xs:complexType mixed="true">
+									<xs:sequence>
+										<xs:element name="Mother" type='xs:string'/>
+										<xs:element name="Daughter">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute name="age" type="xs:int" use="required"/>
+														<xs:attribute name="job" type="job" default="Engineer"/>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="Son">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string">
+														<xs:attribute name="age" type="xs:int" use="required"/>
+														<xs:attribute name="sport" type="sport" default="football"/>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="job" type="job" default="Engineer"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Uncle" type='xs:string' minOccurs="2" maxOccurs="2"/>
+							<xs:element name="Aunt">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute name="sons" type="xs:int" default="2"/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

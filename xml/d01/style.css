@@ -1,0 +1,22 @@
+
+CD{
+	background-color: #eee;
+	color: #000;
+    display:block;
+    padding:10px;
+    margin:10px;
+}
+TITLE{
+color:#ff0000;
+margin-right:10px;
+display:inline-block;
+}
+
+ARTIST{
+color:#0000ff;
+}
+
+COMPANY,COUNTRY,PRICE,YEAR {
+display:block;
+margin:10px
+}

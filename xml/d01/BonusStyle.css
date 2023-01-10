@@ -1,0 +1,60 @@
+
+UNIVERSITY
+{
+padding:20px
+}
+*{
+display:block;
+font-family:serif;}
+
+UNIVERSITY_NAME
+{
+text-align:center;
+font-size:65px;
+width:50%;
+margin:30px auto;
+}
+DATE
+{
+text-align:center;
+color:#ff0000;
+font-size:30px;
+border:5px groove #ff0000;
+padding:10px;
+margin:auto;
+}
+
+PRESIDENT{
+margin:20px 0px;
+}
+
+TITLE{
+color:#00ff00;font-size:30px;}
+
+OFFICERS,PROVOST 
+{
+margin:20px 0px;
+}
+ONEOFFICER > * , ONEPROVOST>*
+{
+color:#0000ff;
+display:inline-BLOCK;
+font-style:italic;
+
+}
+
+SCHOOLS TITLE , SCHOOL THE_SCHOOL 
+{
+color:#ff0000;
+text-align:center;
+margin:20px auto;
+font-size:25px;
+}
+SCHOOL DEPARTMENT
+{
+width:60%;
+border:5px solid #eee;
+padding:5px;
+margin:10px auto;
+font-style:italic;
+}
