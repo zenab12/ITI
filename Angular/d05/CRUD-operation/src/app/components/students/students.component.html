@@ -1,0 +1,9 @@
+<div class="mt-5 bg-dark out-line-warning w-50 p-5 m-auto text-light " *ngFor="let s of students">
+  <h2 class="text-light">{{s.name}}</h2>
+  <h3 class="text-light">{{s.address.city}}</h3>
+  <h4 class="text-light">Email : <a routerLinkActive="active" routerLink="/students/{{s.id}}">{{s.email}}</a></h4>
+</div>
+<p>
+
+
+</p>
