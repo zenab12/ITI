@@ -1,0 +1,21 @@
+{
+  "name": "ds_2",
+  "version": "1.0.0",
+  "description": "lab of day 2 in node smart village course ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "user": "echo $USER",
+    "start": "node .",
+    "dev": "nodemon .",
+    "debug": "nodemon --inspect ."
+  },
+  "keywords": [
+    "nodemon",
+    "node",
+    "http",
+    "server"
+  ],
+  "author": "Zien Muhammad",
+  "license": "ISC"
+}
