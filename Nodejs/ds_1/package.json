@@ -1,0 +1,19 @@
+{
+  "name": "ds_1",
+  "version": "1.0.0",
+  "description": "day_1 smart course in node ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "commander"
+  ],
+  "author": "zien mo",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^10.0.0"
+  }
+}

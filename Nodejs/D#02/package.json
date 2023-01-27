@@ -1,0 +1,25 @@
+{
+  "name": "d0_2",
+  "version": "1.0.0",
+  "description": "Task of day 2 in node js in iti",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "keywords": [
+    "nodejs",
+    "server",
+    "http",
+    "fs"
+  ],
+  "author": "Zien Mo",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

@@ -4,9 +4,29 @@ const fs = require("fs");
 const { program } = require("commander");
 const { json } = require("stream/consumers");
 
+// const getFile = (path) => {
+//   return new Promise((resolve, reject) => {
+//     fs.readFile(path, "utf8", (err, data) => {
+//       if (err) {
+//         reject(err);
+//       } else {
+//         resolve(data);
+//       }
+//     });
+//   });
+// };
+
+// const res = getFile("./counter.json")
+//   .then((result) => JSON.parse(result))
+//   .catch((err) => err);
+// console.log(res);
 //reading json files
 const taskStr = fs.readFileSync("./tasks.json", { encoding: "utf8" });
 const tasks = JSON.parse(taskStr);
+
+let ctrStr = fs.readFileSync("./counter.json", { encoding: "utf8" });
+let ctr = JSON.parse(ctrStr);
+console.log(ctr);
 // console.log(tasks);
 const [, , action] = process.argv;
 
@@ -20,14 +40,15 @@ program
   .description("add new task in To Do application ")
   .requiredOption("-t, --title <string>", "display the title of the task")
   .action((options) => {
+    ctr.counter++;
     const newTask = {
-      id: tasks.find((task) => {
-        Math.max(task.id);
-      }),
+      id: ctr.counter,
       title: options.title,
     };
     tasks.push(newTask);
     fs.writeFileSync("./tasks.json", JSON.stringify(tasks, null, 5));
+
+    fs.writeFileSync("./counter.json", JSON.stringify(ctr, null, 5));
   });
 
 program

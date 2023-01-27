@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  place-content: center;
+  place-items: center;
+  flex-direction: column;
+  gap: 3px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  color: aliceblue;
+  background-color: #333;
+}
+
+img {
+  border: 10px groove aliceblue;
+}
+
+video {
+  width: 50%;
+  border: 10px groove aliceblue;
+  margin-top: 50px;
+}
