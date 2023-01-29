@@ -1,0 +1,501 @@
+[33mcommit 12d2958e711b793fe67181d48500022e099f65ce[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Sat Jan 28 00:04:21 2023 +0200
+
+    update
+
+[33mcommit 7d9a558a8af6e938d99713c1c186109d00de1917[m
+Merge: d098cae 715018f
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Sat Jan 28 00:01:49 2023 +0200
+
+    Merge branch 'main' of https://github.com/zenab12/ITI
+
+[33mcommit d098caecb787c7f36c4dfece175070c194caab63[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Sat Jan 28 00:01:46 2023 +0200
+
+    update
+
+[33mcommit 715018fb8093ce5c337911ea42e89bae36770466[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Jan 27 15:32:26 2023 +0200
+
+    Update README.md
+
+[33mcommit ab6da41b67f740d9d80c98ea700799a8ef1b627b[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Jan 27 15:30:35 2023 +0200
+
+    Update README.md
+
+[33mcommit c6cc58cfb648dfd37669da900c9ab1bf5ebe0181[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Jan 27 15:26:59 2023 +0200
+
+    Update README.md
+
+[33mcommit b95e759437a1f4ee825c2e31788bc9112c38da88[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Jan 27 15:24:21 2023 +0200
+
+    Update README.md
+
+[33mcommit 5444ed589c8a11ed740f63aea2f2805053dde1e8[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Jan 27 15:23:19 2023 +0200
+
+    Create README.md
+
+[33mcommit 32f1fb968a24b30ad71bfa8e21379bf8e82b7c75[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Jan 27 15:17:24 2023 +0200
+
+    finish_d01_node_smart
+
+[33mcommit ef248e8bfa4204a63c1e46d1e15af7344f88f66e[m
+Merge: 5b67477 96370a1
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Mon Jan 16 06:32:58 2023 +0200
+
+    Merge branch 'main' of https://github.com/zenab12/ITI
+
+[33mcommit 5b67477ffe0b0de9960c167302fd529625ad1373[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Mon Jan 16 06:32:34 2023 +0200
+
+    update
+
+[33mcommit 96370a1ec91f83154e3e4af8430b02158c1e3432[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Jan 13 22:51:39 2023 +0200
+
+    Update README.md
+
+[33mcommit 4d73e326ed5976d397c894b04191a18f115c1643[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Jan 13 22:48:52 2023 +0200
+
+    Update README.md
+
+[33mcommit dceeb7802224d9bbd097def3d6d18f18646c04f7[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Jan 13 22:44:41 2023 +0200
+
+    Add files via upload
+
+[33mcommit 0f219272191e1253cd35968bda50b19aed6f263f[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Jan 13 22:43:58 2023 +0200
+
+    Delete day1.txt
+
+[33mcommit b0177bbb047f1036c9b36fb48c1547543ef34a65[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Jan 13 22:31:27 2023 +0200
+
+    Create day1.txt
+
+[33mcommit b7bfd29c4ddaaaafd66948f6fa44b7d8ed894614[m
+Merge: 0b785f3 f394c57
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Tue Jan 10 15:59:46 2023 +0200
+
+    Merge branch 'main' of https://github.com/zenab12/ITI
+
+[33mcommit 0b785f39bbdf13b6a43ad2f402e19f3e9716610c[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Tue Jan 10 15:59:34 2023 +0200
+
+    update
+
+[33mcommit f394c57f9d8cc13338136b3cfaf1f119c00af178[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Tue Jan 10 03:23:23 2023 +0200
+
+    Delete StressReport.docx
+
+[33mcommit 9086d9eda751709c0443236d5f920fb2cf7e4c4d[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Tue Jan 10 03:22:35 2023 +0200
+
+    Update README.md
+
+[33mcommit 4400c4a4189f6d0e7d0c20328bbf737c7033502c[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Sun Jan 8 14:50:10 2023 +0200
+
+    a
+
+[33mcommit 2d8aea5cb95b666f3f3eab0915243330e506039e[m
+Merge: 42f98ce 51c86fa
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Sat Jan 7 13:50:25 2023 +0200
+
+    Merge branch 'main' of https://github.com/zenab12/ITI
+
+[33mcommit 42f98ce0368c25c5adeb56a3c67981ccc1a6c611[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Sat Jan 7 13:50:20 2023 +0200
+
+    finsih task of d04
+    
+    finsih task of d04 without refactoring reponsive code
+
+[33mcommit 51c86fae68b0bda40e4003ee235e64a712fc0763[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Thu Jan 5 15:41:06 2023 +0200
+
+    Update angular.json
+
+[33mcommit 8b3292617d0345c52dd14e3d372342c47b813ba4[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Thu Jan 5 15:38:10 2023 +0200
+
+    create d04
+    
+    validators_task
+
+[33mcommit 6a7182c5f2300ccee3493d96d92132ec6a008b77[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Wed Jan 4 19:12:32 2023 +0200
+
+    aa
+    
+    ss
+
+[33mcommit 2a8a57aeda48e8fc71951ba723ebd7a31751e57b[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Tue Jan 3 20:45:29 2023 +0200
+
+    Add files via upload
+
+[33mcommit d05b2df1ceceb1016a8f688856d0e0b606b91b10[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Tue Jan 3 15:36:51 2023 +0200
+
+    Add files via upload
+
+[33mcommit 620d2148008a55e0f7e1b58050eeca21478dd741[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 30 13:48:13 2022 +0200
+
+    Update script.js
+
+[33mcommit c5d48fc7243c484aa6899f5c0b203021f919a128[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 30 02:53:21 2022 +0200
+
+    Update README.md
+
+[33mcommit 28d34a62d8260d62f1e675c603f22e2487880059[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 30 02:53:12 2022 +0200
+
+    Update README.md
+
+[33mcommit d409404ddcd2530000295d6fa8a85cfc19a33714[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 30 02:53:02 2022 +0200
+
+    Create README.md
+
+[33mcommit fc403dfe1da9897ceaf5875ddc4a32b94ee19bc6[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 30 02:52:31 2022 +0200
+
+    Update README.md
+
+[33mcommit 44dec355ef19009170dffe4e44078c857e7805aa[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 30 02:50:48 2022 +0200
+
+    Create README.md
+
+[33mcommit 3619e4a7d20e78856890d3e7e500d04065f804c7[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 30 02:47:45 2022 +0200
+
+    Add files via upload
+
+[33mcommit 1efb88370215f68294eaaa6e5c4cb76416fd0984[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Thu Dec 29 20:42:21 2022 +0200
+
+    Add files via upload
+
+[33mcommit 857e26afb03111aa0f2d00ebde2cf2f6f9b05f30[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Tue Dec 27 18:03:49 2022 +0200
+
+    Add files via upload
+
+[33mcommit 060a1dd82c6e834655c60a0be3b99c11b86a7fc4[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Sun Dec 25 21:39:09 2022 +0200
+
+    Add files via upload
+
+[33mcommit 9c104a2db5ff31239095d6a059694b6410298202[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 23 01:21:47 2022 +0200
+
+    Update README.md
+
+[33mcommit 5fa33dc6b0cf648a6bdb914f87fecb6dc39aaabb[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 23 01:18:38 2022 +0200
+
+    Add files via upload
+
+[33mcommit 1c4d24d2a25aec409b2100e2d7573bb745b6045e[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 23 00:09:59 2022 +0200
+
+    Update style.css
+
+[33mcommit c89e192353bc0d3b14c1448248f0b36945b9b84f[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 23 00:02:43 2022 +0200
+
+    Make height responsive
+
+[33mcommit ef0d462e7fd3ec5534389a46adde0715d0caa528[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 23 00:02:27 2022 +0200
+
+    make height responsive
+
+[33mcommit 37c7d7a988ebb3244b62bd14b17981cb0dea579c[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Thu Dec 22 20:00:09 2022 +0200
+
+    Update README.md
+
+[33mcommit 4d17f637a7dec26a86ad4ed19360c973183e895c[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Thu Dec 22 19:54:01 2022 +0200
+
+    Create README.md
+
+[33mcommit a89fb9d8069f5599d4c0bf030c80a781ac86eb5e[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Thu Dec 22 19:29:28 2022 +0200
+
+    Add files via upload
+
+[33mcommit 4ac90087feeb33f515a815b8e2ace9d611a0e13d[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Thu Dec 22 14:49:01 2022 +0200
+
+    Update README.md
+
+[33mcommit fe8de7787b0910779175051f07c82d857eed1e4f[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Thu Dec 22 14:48:25 2022 +0200
+
+    add github dev comment
+
+[33mcommit bf4cb18e23f3ac6472569e696a87b05cfc997fbe[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Thu Dec 22 14:46:30 2022 +0200
+
+    Update README.md
+
+[33mcommit 269b226c208abaf6eee29c14dd997111aed6b144[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Thu Dec 22 14:46:08 2022 +0200
+
+    make dev github comment
+
+[33mcommit a805abedc58bb742278dc59818d016c319c4c60f[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Thu Dec 22 14:44:40 2022 +0200
+
+    remove comment
+
+[33mcommit 62d3b548487e4c049c96637118599fb5acfde4a2[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Thu Dec 22 14:43:55 2022 +0200
+
+    add comment
+
+[33mcommit be5851bf73d82356e4b39a50d69a9306a8de01f1[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Thu Dec 22 14:42:13 2022 +0200
+
+    remove comment
+
+[33mcommit 5d341899efe1beef139ae283bd6a94b897b0c821[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Thu Dec 22 14:17:45 2022 +0200
+
+    github div comment
+
+[33mcommit e7b8c5b741b983e6122003c96fe9e591aa1c4177[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Thu Dec 22 13:01:09 2022 +0200
+
+    check update from dev github
+
+[33mcommit c2c0239049e07c41c91bc1d84ccbc720733eaf64[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Thu Dec 22 12:59:59 2022 +0200
+
+    update from dev github
+
+[33mcommit 5a4e1b88923d88db61e518a3c3c313636e4901a7[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Sun Dec 18 18:55:13 2022 +0200
+
+    Add files via upload
+
+[33mcommit 1fe0377022d0c1bbf0a74aaa7e33cc206101dc2c[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 18:47:48 2022 +0200
+
+    Update script.js
+
+[33mcommit cc349606f360eaad9dfaf4e1a536668a92431bd1[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 18:26:24 2022 +0200
+
+    Update script.js
+
+[33mcommit 4fd69c70565e80d0e6bcb3918883163f1a42defb[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 16:30:11 2022 +0200
+
+    Add files via upload
+
+[33mcommit eafbe48cf8c76c58400696ef0361e0c6ee705307[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 11:58:25 2022 +0200
+
+    Add files via upload
+
+[33mcommit 94a24f43330415d2c140d50cf2db9f7f3321172e[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 11:45:52 2022 +0200
+
+    Add files via upload
+
+[33mcommit 54dbf88ae520bb39a0e8a883246ffbd7d97f1bc7[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 11:38:42 2022 +0200
+
+    Add files via upload
+
+[33mcommit e0a9b652b8ae93583d9886df7ea5df94ebad4703[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 09:29:29 2022 +0200
+
+    Update README.md
+
+[33mcommit 1a318f55ace8f0a44b8b9067463ab2eef756906d[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 09:28:30 2022 +0200
+
+    Delete edit.css
+
+[33mcommit 0de33335ab72375bac0081c6e7cf3a6de0b566e9[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 09:28:14 2022 +0200
+
+    Add files via upload
+
+[33mcommit 51d294df180b01ee43e42c654f101b9936405a58[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 04:09:04 2022 +0200
+
+    Add files via upload
+
+[33mcommit 8833b1aaa24471f30f516e2e07eb095e3b732995[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 03:43:52 2022 +0200
+
+    Add files via upload
+
+[33mcommit da5f2a3b3ebd0d5e923917bfd1af08f89bc4e2aa[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 03:41:06 2022 +0200
+
+    Delete style.css
+
+[33mcommit 65829e9d20547a4012990b2777c141e3f9e73b34[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 03:40:59 2022 +0200
+
+    Delete script.js
+
+[33mcommit 176ed1a32014c03c7a5d6df3d05f93d69bc438da[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 03:17:26 2022 +0200
+
+    Update style.css
+
+[33mcommit 12afdfed109c642c96fdc67f2c863dafdf2917d8[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 03:16:18 2022 +0200
+
+    Update README.md
+
+[33mcommit e13681d9b35f65dba2157fe24fae279baa0bb6f1[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 03:14:36 2022 +0200
+
+    Update style.css
+
+[33mcommit 3d29654a0a0f830e9c6215dedf2d82e6867e02f0[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 03:13:20 2022 +0200
+
+    Update style.css
+
+[33mcommit 762355cf5d00f6c66d673c022af989135076085d[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 03:12:40 2022 +0200
+
+    Update README.md
+
+[33mcommit 600ccdde39575b1c6bb1c3b34f1e1dba9e379baa[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 03:06:54 2022 +0200
+
+    Update README.md
+
+[33mcommit 14bada162580919dcb6a23810bad54835bb3972d[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 03:04:17 2022 +0200
+
+    Update README.md
+
+[33mcommit 1c5838f75501f44361a5e351666bd39062889566[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 03:03:46 2022 +0200
+
+    Update README.md
+
+[33mcommit 54a102b1de0f6f6e8a19421e4826b76e7713b348[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Fri Dec 16 03:02:30 2022 +0200
+
+    Add files via upload
+
+[33mcommit 068ab05e5ec472566abfd1b328788692c77b5dae[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Thu Dec 15 15:46:03 2022 +0200
+
+    Add files via upload
+
+[33mcommit 72a9cf7ba070e45512d233baad496826e90e20fb[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Mon Dec 12 16:04:50 2022 +0200
+
+    Update README.md
+
+[33mcommit 308cddc5e1ecbddcf1dd664b60b822e0d33cd0b5[m
+Author: Zien Mohammed Abdelmonaem <78083890+zenab12@users.noreply.github.com>
+Date:   Mon Dec 12 16:00:58 2022 +0200
+
+    Update README.md

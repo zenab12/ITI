@@ -1,0 +1,23 @@
+{
+  "name": "ds_3",
+  "version": "1.0.0",
+  "description": "day 3 lab solution of iti smart village",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "nodemon .",
+    "debug": "node --inspect ."
+  },
+  "keywords": [
+    "node",
+    "modules",
+    "express",
+    "asynchronus"
+  ],
+  "author": "Zien Mo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
