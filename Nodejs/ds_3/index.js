@@ -1,19 +1,23 @@
-const express = require("express");
 const { readFile, writeFile } = require("fs").promises;
-const app = express();
 const path = require("path");
 const morgan = require("morgan");
+const express = require("express");
+const app = express();
 const port = 3000;
 
 app.use(express.json());
 app.use(express.static());
+//global logger with time for requests and method
 app.use(morgan("dev"));
+//global error handler
 app.use((err, req, res, next) => {
   if (err) {
     res.status(500).res.send("internal server error");
   }
   next();
 });
+
+//register route with required validation
 app.post("/register", (req, res) => {
   // console.log(req.body[0]);
   let data = req.body;
@@ -49,6 +53,9 @@ app.post("/register", (req, res) => {
 
   // console.log(req);
 });
+
+
+//login route with required validation
 
 app.post("/login", (req, res) => {
   let data = req.body;
@@ -101,12 +108,16 @@ app.post("/login", (req, res) => {
   });
 });
 
+//get todo route 
+
 app.get("/todos", (req, res, next) => {
   (async () => {
     let page = await readFile("todos.json", "utf-8");
     res.end(page);
   })();
 });
+
+//add to do route based on login status and exist uersname
 
 app.post("/todos", (req, res, next) => {
   (async () => {
@@ -152,6 +163,7 @@ app.post("/todos", (req, res, next) => {
   })();
 });
 
+//delete todo route based on id
 app.delete("/todos/:id", (req, res, next) => {
   const { id } = req.params;
   (async () => {
@@ -165,6 +177,8 @@ app.delete("/todos/:id", (req, res, next) => {
     res.end("successfully removed");
   })();
 });
+
+//edit todo route based on id
 
 app.patch("/todos/:id", (req, res, next) => {
   const { id } = req.params;
