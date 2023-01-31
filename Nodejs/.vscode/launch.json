@@ -8,7 +8,7 @@
       "console": "internalConsole",
       "internalConsoleOptions": "neverOpen",
       "name": "nodemon",
-      "program": "${workspaceFolder}/ds_3/index.js",
+      "program": "${workspaceFolder}/ds_4/index.js",
       "request": "launch",
       "restart": true,
       "runtimeExecutable": "nodemon",
