@@ -1,0 +1,31 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <script src="person.js"></script>
+    <script src="wife.js"></script>
+    <script src="husband.js"></script>
+    <script src="Icard.js"></script>
+
+    <script>
+        let w = new wife(new debit(1000));
+        w.display();
+        w.payment();
+
+        console.log("///////////////////////////////////////////////////");
+        console.log("======================== wife is here =================");
+
+        let h = new husband(new debit(1000));
+        h.display();
+        h.payment();
+        console.log("======================== wife is not here =================");
+        h.wifeBehavior = new credit(80);
+        h.display();
+        h.payment(); 
+    </script>
+</body>
+
+</html>
