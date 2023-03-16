@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+div.counter {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+div.counter h2 {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+div.counter p {
+  font-size: 23px;
+  background-color: #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+
+  font-family: "Courier New", Courier, monospace;
+}
+
+div.counter button {
+  color: #333;
+  margin: 0 10px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: -13px;
+  width: 50px;
+  background-color: #f2db0a;
+}
+
+div.counter button:hover {
+  color: #333;
+  background-color: #edc72d;
+}
+div.counter button:last-of-type {
+  color: #fff;
+  width: 150px;
+  background-color: #ed2d2d;
+}
+
+div.counter button:last-of-type:hover {
+  color: #fff;
+
+  background-color: #f22121;
+}
+
+.create-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 50px auto;
+  width: 50%;
+  box-shadow: 0px 0px 5px 0px rgba(238, 236, 236, 0.649);
+  padding: 20px 10px;
+  border-radius: 5px;
+  gap: 20px;
+  background-color: #212529;
+}
+
+.create-product .form-control {
+  display: grid;
+  grid-template-columns: 1.5fr 4fr;
+  border: none;
+  background-color: #212529;
+  color: #fff;
+}
+
+.create-product .form-control label {
+  font-size: 16px;
+  text-indent: 0;
+  text-transform: capitalize;
+  font-weight: 500;
+  text-align: left;
+}
+
+.create-product .form-control input,
+select {
+  border: none;
+  border-left: 5px solid #ffca2c;
+  background-color: #fff;
+  padding: 5px;
+}
+
+.create-product .form-control input:focus,
+select:focus {
+  outline: none;
+}
+
+.create-product .form-control input::placeholder {
+  color: #000;
+}
+
+.create-product button {
+  border: none;
+  background-color: #ffca2c;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 17px;
+  color: #212529;
+  transition: all 0.5s linear;
+}
+
+.create-product button:hover {
+  background-color: #e2ac07;
+  color: #fff;
+}

@@ -1,0 +1,83 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Burger",
+      "price": 90,
+      "category": "3",
+      "desc": "A burger with cheese and tomato",
+      "incart": false
+    },
+    {
+      "id": 2,
+      "name": "Pizza",
+      "price": 120,
+      "category": "1",
+      "desc": "A pizza with cheese and tomato",
+      "incart": false
+    },
+    {
+      "id": 3,
+      "name": "Biryani",
+      "price": 150,
+      "category": "2",
+      "desc": "A biryani with cheese and tomato",
+      "incart": false
+    },
+    {
+      "id": 4,
+      "name": "Pasta",
+      "price": 100,
+      "category": "1",
+      "desc": "A pasta with cheese and tomato",
+      "incart": false
+    },
+    {
+      "id": 5,
+      "name": "Sandwich",
+      "price": 50,
+      "category": "3",
+      "desc": "A sandwich with cheese and tomato",
+      "incart": false
+    },
+    {
+      "id": 6,
+      "name": "Noodles",
+      "price": 80,
+      "category": "1",
+      "desc": "A noodles with cheese and tomato",
+      "incart": false
+    },
+    {
+      "id": 7,
+      "name": "Fried Rice",
+      "price": 70,
+      "category": "2",
+      "desc": "A fried rice with cheese and tomato",
+      "incart": false
+    },
+    {
+      "id": 8,
+      "name": "american salad",
+      "price": 40,
+      "category": "4",
+      "desc": "An american salad with cheese and tomato",
+      "incart": false
+    },
+    {
+      "id": 9,
+      "name": "italian salad",
+      "price": 40,
+      "category": "4",
+      "desc": "An italian saladwith cheese and tomato",
+      "incart": false
+    }
+  ],
+  "categories": [
+    { "id": 0, "name": "all" },
+    { "id": 1, "name": "pastary" },
+    { "id": 2, "name": "rice" },
+    { "id": 3, "name": "sandwitch" },
+    { "id": 4, "name": "salad" }
+  ]
+}
