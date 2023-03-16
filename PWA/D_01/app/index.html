@@ -1,0 +1,82 @@
+<!--
+Copyright 2018 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set character encoding -->
+    <meta charset="utf-8" />
+    <!-- Set the viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Set title -->
+    <title>Service Worker Example</title>
+    <link href="manifest/manifest.webmanifest" rel="manifest" />
+    <!-- Add stylesheet -->
+    <link href="styles/index.css" rel="stylesheet" />
+    <!-- <link rel="manifest" href="manifest.webmanifest" > -->
+  </head>
+  <body>
+    <h1>Service Worker Example</h1>
+    <a href="other.html">Other page</a>
+    <br /><br />
+    <a href="below/another.html">Another page</a>
+    <button id="btn">INSTALL</button>
+
+    <script>
+      // Script to register the service worker goes here
+      if ("serviceWorker" in navigator) {
+        console.log("service worker supported");
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("sw.js")
+            .then((regestration) => {
+              console.log("service worker registered", regestration);
+            })
+            .catch((err) => {
+              console.log("failed", err);
+            });
+        });
+      }
+
+      let promptEvent;
+      const installBtn = document.getElementById("btn");
+
+      window.addEventListener("beforeinstallprompt", (event) => {
+        // Suppress automatic prompting.
+        console.log("fd");
+        event.preventDefault();
+        promptEvent = event;
+        listenToUserAction();
+      });
+
+      function listenToUserAction() {
+        installBtn.addEventListener("click", installApp);
+      }
+
+      function installApp() {
+        installBtn.disabled = false;
+        promptEvent.prompt(); // Wait for the user to respond to the prompt
+        promptEvent.userChoice.then((choice) => {
+          if (choice.outcome === "accepted") {
+            console.log("User accepted");
+          } else {
+            console.log("User dismissed");
+          }
+        });
+      }
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

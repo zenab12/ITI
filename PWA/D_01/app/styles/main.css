@@ -1,0 +1,79 @@
+/*
+Copyright 2018 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  justify-content: space-between;
+  margin: 0;
+  min-height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  color: #444;
+  font-size: 6vw;
+  font-weight: 500;
+}
+
+h2 {
+  border-bottom: 1px solid #ddd;
+  color: #da0343;
+  font-size: 5vw;
+  margin: 25px;
+  padding: 0 0 5px 0;
+}
+
+.img-container {
+  margin: 0 5vw;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  color: #444;
+  font-size: 1em;
+  line-height: 1.6em;
+  margin: 0 5vw;
+  text-align: center;
+}
+
+a {
+  color: #da0343;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+}
+
+footer {
+  background-color: #ccc;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px 0;
+  text-align: center;
+  width: 100%;
+}
+
