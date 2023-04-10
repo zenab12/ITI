@@ -4,19 +4,21 @@ import Home from '../../../styles/Home.module.css';
 import styles from '../../../styles/Comment.module.css';
 import Image from 'next/image';
 
+
 async function postData(data) {
     const res = await fetch('/api/comments', {
       method: 'POST',
       headers: {
+        'Accept': 'application/json',
         'Content-Type': 'application/json'
       },
       body: JSON.stringify(data)
     });
-    // console.log(req.body)
     const result = await res.json();
-    console.log(result);
     return result;
   }
+
+
 
 const Comment = () => {
 
@@ -35,18 +37,16 @@ setLoading(true);
 fetch("/api/comments")
 .then(response => response.json())
 .then(data => {(setComments(data.data));setLoading(false)});
-console.log(isAdded)
 
-},[isAdded])
+},[])
 
 const handleSubmit = (e)=>{
     e.preventDefault();
-    postData({username,email,content,product_id,date});
+   const newcomment = postData({username,email,content,product_id,date});
     setEmail("");
     setUserName("");
     setContent("");
-    setIsAdded(!isAdded);
-    
+   setComments([...comments,newcomment.data])   
   }
 
 //   if(isLoading)
