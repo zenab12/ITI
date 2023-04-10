@@ -18,8 +18,7 @@ async function postData(data) {
     return result;
   }
 
-
-export const Comment = () => {
+const Comment = () => {
 
   const [username,setUserName]=useState('');
   const [email,setEmail]=useState('');
@@ -102,3 +101,4 @@ const handleSubmit = (e)=>{
   }  
    
   
+  export default Comment;
