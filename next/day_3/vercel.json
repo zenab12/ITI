@@ -1,8 +1,5 @@
 {
     "version": 2,
-    "serverless": {
-        "maxDuration": 40
-      },
     "builds": [
       {
         "src": "next.config.js",
@@ -14,6 +11,16 @@
         "src": "/(.*)",
         "dest": "/"
       }
-    ]
+    ],
+        "functions": {
+        "api/test.js": {
+            "memory": 3008,
+            "maxDuration": 30
+        },
+        "api/*.js": {
+            "memory": 3008,
+            "maxDuration": 40
+        }
+    }
   }
   
