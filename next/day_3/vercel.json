@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "serverless": {
+        "maxDuration": 40
+      },
+    "builds": [
+      {
+        "src": "next.config.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/"
+      }
+    ]
+  }
+  
