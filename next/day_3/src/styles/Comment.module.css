@@ -1,0 +1,115 @@
+.commentSection {
+    background-color: #f0f0f0;
+    border-top:5px dashed #c0c0c0;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px 0px;
+
+  }
+
+
+  
+  .comment {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #3c3c3c;
+    width:60%;
+    margin:1rem auto;
+    color:#b3b0b0
+  }
+  
+  .comment p {
+    margin:10px auto;
+    color:#ffffff
+    
+  }
+  
+  .commentAuthor {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color:#ececec
+  }
+  
+  .commentDate {
+    font-size: 0.8rem;
+    color: rgb(210, 210, 210);
+  }
+  
+  .userInfo 
+  {
+    display: flex;
+    gap:20px;
+    align-items: center;
+  }
+  .userInfo img 
+  {
+    width:40px;
+    height:40px;
+    border-radius: 100%;
+    border:2px double #dbdada;
+    padding:3px;
+  }
+  .info 
+  {
+
+  }
+
+  .comment-form {
+    display: flex;
+    width:60%;
+    margin:20px auto;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .comment-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color:#3c3c3c
+  }
+  
+  .comment-form input,
+  .comment-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #cacaca;
+    font-family: 'Courier New', Courier, monospace;
+    color:#3c3c3c
+
+
+  }
+  
+  .comment-form input:focus,
+  .comment-form textarea:focus {
+    border-color: #e3e6e9;
+    outline: none;
+  }
+  
+  .comment-form button {
+    background-color: #3c3c3c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;;
+    margin-bottom: 20px;
+    transition: all .5s linear;
+    width:200px;
+    font-size: 19px;
+    margin:auto;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .comment-form button:hover {
+    background-color: #aeaeae;
+    color:#3c3c3c
+  }
+  
+  .heading 
+  {
+    text-align: center;
+    color:#3c3c3c;
+    font-size: 22px;;
+    padding:20px 0px;
+  }
