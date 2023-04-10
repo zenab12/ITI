@@ -12,15 +12,9 @@
         "dest": "/"
       }
     ],
-        "functions": {
-        "api/test.js": {
-            "memory": 3008,
-            "maxDuration": 30
-        },
-        "api/*.js": {
-            "memory": 3008,
-            "maxDuration": 40
-        }
+     "functions": {
+    "api/*": {
+      "maxDuration": 20
     }
   }
   
