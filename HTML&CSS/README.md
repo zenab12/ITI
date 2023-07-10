@@ -5,11 +5,11 @@
 - Assignment D#3 about css3 [NavBar](#NavBar)
 
 ## Welcome_and_Home_Page:
-  - [live Demo](https://github.com/zenab12/ITI/tree/main/HTML%26CSS/D01/welcome.html)
+  - [live Demo](https://zenab12.github.io/ITI/HTML&CSS/D01/welcome.html)
   - [code](https://github.com/zenab12/ITI/tree/main/HTML%26CSS/D01)
 
 ## Home_Page_using_table
- - [live Demo](https://github.com/zenab12/ITI/tree/main/HTML%26CSS/D02/Home.html)
+ - [live Demo](https://zenab12.github.io/ITI/HTML&CSS/D02/Home.html)
  - [code](https://github.com/zenab12/ITI/tree/main/HTML%26CSS/D02)
  - 
 ## NavBar
