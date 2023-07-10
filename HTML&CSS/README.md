@@ -1,61 +1,19 @@
 # Assignments in HTML & CSS in client side course 
 
 - Assignment D#1 about [Welcome and Home Page](#Welcome_and_Home_Page)
-- Assignment D#2 about [Home Page using table](#Welcome and Home Page)
-- Assignment D#3 about css3 [NavBar](#focus)
+- Assignment D#2 about [Home Page using table](Home_Page_using_table)
+- Assignment D#3 about css3 [NavBar](#NavBar)
 
 ## Welcome_and_Home_Page:
-  - Using canvas: when the user clicks on the “click me” button generate number of circles in the entire page in random places and get the circles color from the “input color”.
-  - [live Demo](https://zenab12.github.io/ITI/HTML5&CSS3)
-  - [code](https://github.com/zenab12/ITI/blob/main/HTML5%26CSS3/index.html)
-  ![_D__Learn_ITI_js_HTML5 CSS3_index html(Nest Hub)](https://user-images.githubusercontent.com/78083890/206854692-3c83764c-3a68-47d2-b9d9-6305b2720c84.png)
+  - [live Demo](https://github.com/zenab12/ITI/tree/main/HTML%26CSS/D01/welcome.html)
+  - [code](https://github.com/zenab12/ITI/tree/main/HTML%26CSS/D01)
 
+## Home_Page_using_table
+ - [live Demo](https://github.com/zenab12/ITI/tree/main/HTML%26CSS/D02/Home.html)
+ - [code](https://github.com/zenab12/ITI/tree/main/HTML%26CSS/D02)
 
-## Welcome and Home Page
-  - under refactoring.
-  - drag and drop game with stone,scissor ,paper and you can play it on pc only not mobile .
-  - [live Demo](https://zenab12.github.io/ITI/HTML5&CSS3/CSS3Ass/drag_drop.html)
-  - [code](https://github.com/zenab12/ITI/blob/main/HTML5%26CSS3/CSS3Ass/drag_drop.html) 
-![_D__Learn_ITI_js_HTML5 CSS3_CSS3Ass_drag_drop html(Nest Hub Max)](https://user-images.githubusercontent.com/78083890/206868620-e52f8e41-6492-4a75-bf26-8a6709e9c151.png)
+## NavBar
+ - [code](https://github.com/zenab12/ITI/tree/main/HTML%26CSS/D03&D04)
 
-
-## focus
-  - Make a search textbox, that when mouse is on it (on focus), its width increases gradually, and when mouse is out (on blur), it backs gradually to its original width
-  - [live Demo](https://zenab12.github.io/ITI/HTML5&CSS3/CSS3Ass/input.html)
-  - [code](https://github.com/zenab12/ITI/blob/main/HTML5%26CSS3/CSS3Ass/input.html) 
-
-  
-## photo_Gallery
-  - Create a simple photo gallery like the following, and use opacity property to make each image fades out gradually (its opacity decreases to 0.3 gradually) when mouse is over it, and fades in gradually (its opacity increases to 1 gradually) when mouse is a way. (Use JavaScript to add styles)
-  - [live Demo](https://zenab12.github.io/ITI/HTML5&CSS3/CSS3Ass/photoGallery.html)
-  - [code](https://github.com/zenab12/ITI/blob/main/HTML5%26CSS3/CSS3Ass/photoGallery.html) 
-  ![_D__Learn_ITI_js_HTML5 CSS3_CSS3Ass_photoGallery html(Nest Hub)](https://user-images.githubusercontent.com/78083890/206860098-7488dcc8-b535-4f5b-b3f1-db194d5c887a.png)
-
-
-
-## features
-
-  - Using font awesome CDN to create the icons https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" icons.
-  - [live Demo](https://zenab12.github.io/ITI/HTML5&CSS3/CSS3Ass/features.html)
-  - [code](https://github.com/zenab12/ITI/blob/main/HTML5%26CSS3/CSS3Ass/features.html) 
-
-  ``` html 
-    <i class="fa fa-bullhorn"></i>
-    <i class="fa fa-comments"></i>
-    <i class="fa fa-cloud-download"></i>
-    <i class="fa fa-leaf"></i>
-    <i class="fa fa-cogs"></i>
-    <i class="fa fa-heart"></i>
-```
-    
-  ![_D__Learn_ITI_js_HTML5 CSS3_CSS3Ass_features html(Nest Hub)](https://user-images.githubusercontent.com/78083890/206855388-b997d2bf-96b3-4cdd-8b8b-e07b80b3c6df.png)
-
- 
- 
-## card 
-  - [live Demo](https://zenab12.github.io/ITI/HTML5&CSS3/CSS3Ass/bonusCard.html)
-  - [code](https://github.com/zenab12/ITI/blob/main/HTML5%26CSS3/CSS3Ass/bonusCard.html) 
-
-  ![_D__Learn_ITI_js_HTML5 CSS3_CSS3Ass_bonusCard html(Nest Hub)](https://user-images.githubusercontent.com/78083890/206855344-cda2d915-afc4-4084-951e-a30a94ccb1bb.png)
-
-
+` **Note** ` 
+you can find assignment pdf in each folder for each day
