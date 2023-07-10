@@ -1,0 +1,310 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <style>
+    table 
+    {
+        border: 3px solid #333;
+        /* border-spacing: 10px;; */
+        
+        width:90%;
+        margin:20px auto
+    }
+      table td{
+      padding: 0px;
+        border:3px solid #333;
+       }
+
+      img {
+         width:30px;
+         /* height:50px; */
+         vertical-align: middle;
+      }
+      
+      .nav ul {
+         text-align:center;
+padding-top: 10px;      }
+      .nav ul li{
+        list-style: none;
+        margin: 0;
+        padding: 10px;
+        display: inline-block;
+      }
+      
+      .nav ul li a 
+      {
+         color: #333;
+         font-size: 16px;
+         font-weight: bold;
+      }
+      
+      .logo div 
+      {
+        
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+      }
+      .logo div span
+      {
+        font-size: 20px;
+        font-weight: bold;
+        color:rgb(169, 36, 19)
+      }
+      
+      form 
+      {
+        padding: 10px;
+        margin: 10px;
+        border: 2px dashed rgb(169, 36, 19);
+      }
+
+      .login::after,.my-pages::after,.photo::after
+      {
+         content:"";
+         width:90%;
+         display: block;
+         margin: 20px auto;
+         height:3px;
+         
+            background-color: rgb(169, 36, 19);
+      }
+      form div 
+      {
+         display: block;
+         margin:10px auto;
+      }
+      
+      form > div > input 
+      {
+         width: 100%;
+         padding: 10px;
+         margin: 10px 0px;
+         border: 1px solid #333;
+      }
+      button[type="submit"]
+      {
+         background-color: #333;
+         color: #fff;
+         font-weight: bold;
+         border: none;
+         padding: 10px;
+         margin: 10px auto;
+         text-align: center;
+         width: 100%;
+      }
+      form div > label
+      {
+            margin: 2px 0px;
+            color: rgb(169, 36, 19);
+            font-weight: 700;
+      }
+      
+      .my-pages ul 
+      {
+      padding: 0px
+      }
+      .my-pages ul li
+      {
+      display: block;
+      text-align: center;
+      padding: 5px;
+      }
+      
+      h2 {
+      text-align: center;
+      }
+      
+      .video 
+      {
+        margin:20px;
+
+      }
+      iframe 
+      {
+        border: 2px dashed rgb(169, 36, 19)!important;
+        padding:10px;
+      }
+      .photo 
+      {
+       margin-top: 10px;
+      }
+      .photo  img
+      {
+        width: 85%;
+        display: block;
+        padding:10px;
+        margin: 0px auto;
+        border: 2px dashed rgb(169, 36, 19);
+      }
+      .main .info ul  li
+      {
+         display: block;
+      }
+      .rightSidebar,.main 
+      {
+        vertical-align:top;
+
+      }
+      h2{
+        text-align: center;
+      }
+      div > ul > li,
+      h1 {
+        color: rgb(169, 36, 19);
+        font-weight: 700;
+        
+      }
+      ul li span,
+      ol li,
+      ul ul li,
+      a {
+        color: rgb(20, 1, 1);
+        font-weight: 400;
+        font-size: 18px;
+        padding: 10px 0px;
+      }
+      ol 
+      {
+      list-style: decimal;
+      }
+      .footer 
+      {
+        text-align: center;
+        padding:10px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr class="logo">
+          <td colspan="3">
+          <div>          
+              <img src="../images/ZAIN.png" />
+              <span>zienabmuhammad55</span>
+          </div>
+          
+          </td>
+        </tr>
+        <tr class="nav">
+          <td colspan="3">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="leftSidebar" width="25%">
+          
+                <div class="login">
+                    <form>
+                    <div>
+                        <label for="username">Username</label>
+                        <input type="text" name="username" id="username" />
+                    </div>
+                    <div>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" />
+                    </div>
+                        <button type="submit">Login</button>
+                    </form>
+                </div>
+                
+                <div class="my-pages">
+                <h2>My Pages</h2>
+                    <ul>
+                        <li>
+                            <a href="#"  target="_blank" ><img src="../images/facebook.png"/></a>
+                          </li>
+                          <li>
+                            <a href="#"  target="_blank" ><img src="../images/linkedin.png" /></a>
+                          </li>                    </ul>
+                </div>
+                
+                <div class="video">
+                    <iframe style="border:none;display: block;margin:20px auto;" src="../D01/clouds_-_16923 (540p).mp4" width="90%" title="welcoming video">
+                    </iframe>
+                </div>
+          </td>
+          <td class="main">
+             <div class="info">
+                <h2>My Personal Info</h2>
+                <ul>
+                  <li>
+                    Age:
+                    <span>23</span>
+                  </li>
+                  <li>
+                    Address:
+                    <span>Mansoura-Egypt</span>
+                  </li>
+                  <li>
+                    Phones:
+                    <ol type="a">
+                      <li>01096745129</li>
+                      <li>xxxxxxxxxxx</li>
+                    </ol>
+                  </li>
+                  <li>
+                    Faculty name:
+                    <span><a href="">CIS Mansoura University</a></span>
+                  </li>
+                  <li>
+                    Graduation Year:
+                    <span>2022</span>
+                  </li>
+                  <li>
+                    Hobbies:
+                    <ol type="1">
+                      <li>Challenges</li>
+                      <li>Cooking</li>
+                      <li>Conversion design to real website</li>
+                    </ol>
+                  </li>
+                  <li>
+                    Send Me Email:
+                    <span style="color: rgb(20, 1, 1); font-weight: 400"
+                      >zienabmuhammad55@gmail.com</span
+                    >
+                  </li>
+                </ul>
+              </div>
+          </td>
+          <td class="rightSidebar" width="25%">
+             <div class="photo" width="100%">
+                <img
+                src="https://media.licdn.com/dms/image/D4D03AQEMTfA4nZLlBQ/profile-displayphoto-shrink_400_400/0/1687726472789?e=1694649600&v=beta&t=dvEQhAAVmkORjP3expxs19Kh80ZO0Jn9cako6ey_JLs"
+                alt="my image"
+                width="100%"
+              />
+             </div>
+             
+             <div>
+                <h2>News</h2>
+             </div>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td class="footer" colspan="3">
+            <p> <a href="#">Top of page</a></p>
+            <p style="color:rgb(169, 36, 19)">Copy Rights &copy; are reserved to ITI</p>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
