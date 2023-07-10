@@ -4,7 +4,7 @@
 - Assignment D#2 about [Home Page using table](#Welcome and Home Page)
 - Assignment D#3 about css3 [NavBar](#focus)
 
-## Welcome and Home Page:
+## Welcome_and_Home_Page:
   - Using canvas: when the user clicks on the “click me” button generate number of circles in the entire page in random places and get the circles color from the “input color”.
   - [live Demo](https://zenab12.github.io/ITI/HTML5&CSS3)
   - [code](https://github.com/zenab12/ITI/blob/main/HTML5%26CSS3/index.html)
