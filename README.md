@@ -7,7 +7,7 @@
 ### Find this Repo useful ? :heart:
 * Support it by clicking the :star: button on the upper right of this page. :v:
 
-### **thanks ITI for all lovely things introduced for us❤️**
+> **thanks ITI for all lovely things introduced for us❤️**
 
 ## License
 ```
